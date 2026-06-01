@@ -1,0 +1,936 @@
+[
+  {
+    "intent": "student_dashboard",
+    "keywords": ["student dashboard", "student overview", "student summary", "student limit", "total students", "storage usage", "total fees due", "total staff"],
+    "answer": "Dashboard",
+    "steps": [
+      "Left side top par dekhe dashboard ka option hai",
+      "Dashboard par click kare",
+      "ERP Software ka pura overview aapko mil jayega jisme student limit, total students, storage usage, total fees due, total staff jaise details dikhengi"
+    ]
+  },
+  {
+    "intent": "fees_collect",
+    "keywords": [
+      "fees collect",
+      "collect fees",
+      "fee collection",
+      "fees payment",
+      "collect fee",
+      "student fees collect",
+      "student ki fees collect",
+      "fees kaise collect kare",
+      "fees lene ka tarika"
+    ],
+    "answer": "Finance & Fees → Collect Fees → Student Information Fill Kare → Filter → View & Collect → Fees type select kare → Collect Selected → Save & Print Receipt",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Collect Fees option select kare",
+      "Student information fill kare",
+      "Filter apply kare",
+      "View & Collect par click kare",
+      "Fees type select kare aur Collect Selected par click kare",
+      "Save & Print Receipt par click kare"
+    ]
+  },
+  {
+  "intent": "search_due_fees",
+  "keywords": ["search due fees", "find due fees", "due fees search", "fees due search", "pending fees search", "due fees report", "fees due report", "pending fees report", "due fees"],
+  "answer": "Finance & Fees → Search Due Fees → Student Information Fill Kare → Filter → View Due Amount",
+  "steps": [
+    "Finance & Fees module open kare",
+    "Search Due Fees option select kare",
+    "Student information fill kare",
+    "Filter apply kare",
+    "View Due Amount"
+  ]
+  },
+  {
+    "intent": "assign_fees",
+    "keywords": ["assign fees", "fees assign", "student fees assign", "fee assignment", "assign fee", "fees type assign", "assign fees to student", "student ko fees assign", "fees assign kaise kare"],
+    "answer": "Finance & Fees → Assign Fees → Select class → Retrieve Students → Select fee group → Choose Students → Assign Fees → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Assign Fees option select kare",
+      "Class select kare",
+      "Retrieve Students par click kare",
+      "Select fee group kare",
+      "Choose Students par click kare",
+      "Neeche scroll kare aur Assign Fees par click kare",
+      "Assigne Fees ho jayegi",
+      "Student ko Search krke verify kare",
+      "Uske right side me status me Assigned show hoga"
+    ]
+  },
+  {
+    "intent": "unassign_fees",
+    "keywords": ["unassign fees", "fees unassign", "student fees unassign", "fee unassignment", "unassign fee", "fees type unassign", "unassign fees from student", "student se fees unassign", "fees unassign kaise kare"],
+    "answer": "Finance & Fees → assign Fees → Select class → Retrieve Students → unassign mode → Choose Students → Unassign Fees(delete)",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Assign Fees option select kare",
+      "Class select kare",
+      "Retrieve Students par click kare",
+      "unassign mode select kare",
+      "Choose Students par click kare",
+      "Neeche scroll kare aur Unassign Fees(delete) par click kare",
+      "Unassigned Fees ho jayegi",
+      "Student ko Search krke verify kare",
+      "Uske right side me status me Not Assigned show hoga"
+    ]
+  },
+  {
+    "intent": "fees_type",
+    "keywords": ["fees type", "fee type", "student fees type", "fee categories", "fees category", "add fees type", "create fees type", "fees type kaise add kare", "fees type kaise create kare", "fees type setup", "fees type configuration"],
+    "answer": "Finance & Fees → Fee Types → Add new Fees Type →  Create Fee Type → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Type option select kare",
+      "Add new Fees Type par click kare",
+      "Fees Type name fill kare",
+      "Create Fee Type par click kare"
+    ]
+  },
+  {
+    "intent": "fees_type_edit",
+    "keywords": ["fees type edit", "fee type edit", "student fees type edit", "fee categories edit", "fees category edit", "add fees type edit", "create fees type edit", "fees type kaise edit kare"],
+    "answer": "Finance & Fees → Fee Types → Edit Fees Type →  Update Fee Type → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Type option select kare",
+      "Right side me existing fees type list me se edit icon par click kare",
+      "Fees Type name update kare",
+      "Update Fee Type par click kare"
+    ]
+  },
+  {
+    "intent": "fees_type_delete",
+    "keywords": ["fees type delete", "fee type delete", "student fees type delete", "fee categories delete", "fees category delete", "add fees type delete", "create fees type delete", "fees type kaise delete kare"],
+    "answer": "Finance & Fees → Fee Types → Delete Fees Type →  Confirm Delete → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Type option select kare",
+      "Right side me existing fees type list me se delete icon par click kare",
+      "Confirm delete kare",
+      "Save button par click kare"
+    ]
+  },
+  {
+    "intent": "fees_group",
+    "keywords": ["fees group", "fee group", "student fees group", "add fees group", "create fees group", "fees group kaise add kare", "fees group kaise create kare", "fees group setup", "fees group configuration"],
+    "answer": "Finance & Fees → Fee Groups → Add new Fees Group →  Create Fee Group → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Pahle verify kare ki Fees type create hua hai ya nahi, agar create nahi hua hai to pahle fees type create kare",
+      "Fees Group option select kare",
+      "Add new Fees Group par click kare",
+      "Fees Group name fill kare",
+      "Add another row par click kare aur fees type select kare, amount fill kare, date select kare,repeat kare agar multiple fees type add karna hai",
+      "Create Fee Group par click kare"
+    ]
+  },
+  {
+    "intent": "fees_group_edit",
+    "keywords": ["fees group edit", "fee group edit", "student fees group edit", "add fees group edit", "create fees group edit", "fees group kaise edit kare"],
+    "answer": "Finance & Fees → Fee Groups → Edit Fees Group →  Update Fee Group → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Group option select kare",
+      "Right side me existing fees group list me se edit icon par click kare",
+      "Fees Group name update kare",
+      "Update Fee Group par click kare"
+    ]
+  },
+  {
+    "intent": "fees_group_delete",
+    "keywords": ["fees group delete", "fee group delete", "student fees group delete", "add fees group delete", "create fees group delete", "fees group kaise delete kare"],
+    "answer": "Finance & Fees → Fee Groups → Delete Fees Group →  Confirm Delete → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Group option select kare",
+      "Right side me existing fees group list me se delete icon par click kare",
+      "Confirm delete kare",
+      "Save button par click kare"
+    ]
+  },
+  {
+    "intent": "fees_discount",
+    "keywords": ["fees discount", "fee discount", "student fees discount", "add fees discount", "create fees discount", "fees discount kaise add kare"],
+    "answer": "Finance & Fees → Fee Discounts → Add new Fee Discount →  Create Fee Discount → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Discount option select kare",
+      "Add new Fee Discount par click kare",
+      "Discount details fill kare",
+      "Create Fee Discount par click kare"
+    ]
+  },
+  {
+    "intent": "fees_discount_edit",
+    "keywords": ["fees discount edit", "fee discount edit", "student fees discount edit", "add fees discount edit", "create fees discount edit", "fees discount kaise edit kare"],
+    "answer": "Finance & Fees → Fee Discounts → Edit Fee Discount →  Update Fee Discount → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Discount option select kare",
+      "Right side me existing fees discount list me se edit icon par click kare",
+      "Discount details update kare",
+      "Update Fee Discount par click kare"
+    ]
+  },
+  {
+    "intent": "fees_discount_delete",
+    "keywords": ["fees discount delete", "fee discount delete", "student fees discount delete", "add fees discount delete", "create fees discount delete", "fees discount kaise delete kare"],
+    "answer": "Finance & Fees → Fee Discounts → Delete Fee Discount →  Confirm Delete → Save",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Fees Discount option select kare",
+      "Right side me existing fees discount list me se delete icon par click kare",
+      "Confirm delete kare",
+      "Save button par click kare"
+    ]
+  },
+  {
+    "intent": "generate_due_slip",
+    "keywords": ["generate due slip", "due slip", "fees due slip", "class wise due slip", "monthly wise due slip", "due slip generate", "due slip kaise generate kare", "due slip kaise banaye"],
+    "answer": "Finance & Fees →Generate Due Slip → select month and year →  Generate → Download PDF",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Generate Due Slip option select kare",
+      "Month and year select kare",
+      "Generate button par click kare",
+      "Download PDF par click kare"
+    ]
+  },
+  {
+    "intent": "due_slip_history",
+    "keywords": ["due slip history", "generate due slip history", "fees due slip history", "class wise due slip history kaise dekhe", "monthly wise due slip history kaise dekhe","student due slip history", "due slip history generate", "due slip history kaise generate kare", "due slip history kaise dekhe"],
+    "answer": "Finance & Fees →Due Slip History → select month and year →  Filter",
+    "steps": [
+      "Finance & Fees module open kare",
+      "Due Slip History option select kare",
+      "Month and year select kare",
+      "Filter button par click kare"
+    ]
+  },
+  {
+    "intent": "admission",
+    "keywords": ["admission", "new admission", "student admission", "enroll student", "new enroll","admission process", "admission kaise kare", "student admission kaise kare"],
+    "answer": "Student Information → Student Admission → Student Information Fill Kare(Mandatory required fields) → Admit Student → Save Kare",
+    "steps": [
+      "Student Information module open kare",
+      "Student Admission option select kare",
+      "Student information fill kare",
+      "Class select kare",
+      "Admit Student par click kare",
+      "Student Verify krne ke liye Student List me jaye aur search kare"
+    ]
+  },
+  {
+    "intent": "student_list",
+    "keywords": ["student list", "list student", "student details", "view students", "student information", "student record", "student database","all student kaise dekhe","mujhe sabhi student dekhne hai", "student list kaise dekhe", "student details kaise dekhe"],
+    "answer": "Student Information → Student List → Student Search → View Details",
+    "steps": [
+      "Student Information module open kare",
+      "Student List option select kare",
+      "Student search kare ya filter apply kare(class, section select karke) filter apply kare",
+      "Neeche student Show ho jayenge sabhi(Show (10,25,50,100) option se aap zyada student ek sath dekh sakte hai)"
+    ]
+  },
+  {
+    "intent": "student_data_import",
+    "keywords": ["student data import", "import student data", "excel student upload", "bulk student upload", "student data upload", "student data import kaise kare", "student data excel upload kaise kare"],
+    "answer": "Student Information → Student List → Bulk Upload → Dwonload CSV Format → Excel format me data fill kare → Upload Data",
+    "steps": [
+      "Student Information module open kare",
+      "Student List option select kare",
+      "Bulk Upload option select kare",
+      "Download CSV Format par click kare",
+      "Excel format me data fill kare",
+      "Upload CSV or Excel par click kare",
+      "Process Upload par click kare",
+      "Excel File Verify krne ke liye Bulk Upload History me jaye aur check kare",
+      "Ya Dashboard me jake student limit aur total students check kare, agar total students me increase show ho raha hai to samajh jaiye ki data import successfully hua hai"
+    ]
+  },
+  {
+    "intent": "student_profile_view",
+    "keywords": ["view student profile", "student profile", "student information", "student details", "student record", "student data","student information kaise dekhe", "student details kaise dekhe", "student record kaise dekhe", "student data kaise dekhe"],
+    "answer": "Student Information → Student List → Student Search & filter → View Button Par Click Kare → Student Information Dekh sakte hain",
+    "steps": [
+      "Student Information module open kare",
+      "Student List par jaye",
+      "Student search kare ya filter apply kare(class, section select karke)",
+      "View button par click kare(Right side me Action name ke column me view icon hoga uspar click kare)",
+      "Student information dekhen"
+    ]
+  },
+  {
+    "intent": "student_disable",
+    "keywords": ["disable student", "student disable", "deactivate student", "student ko disable kaise kare", "student deactivate kaise kare","student delete nahi karna hai disable karna hai"],
+    "answer": "Student Information → Student List → Student Search & filter → Disable Button Par Click Kare → Student Disable kare",
+    "steps": [
+      "Student Information module open kare",
+      "Student List par jaye",
+      "Student search kare ya filter apply kare(class, section select karke)",
+      "Disable button par click kare(Right side me Action name ke column me disable icon hoga uspar click kare)",
+      "Student disable karne ke baad verify kare student list me ki student disable show ho raha hai ya nahi"
+    ]
+  },
+  {
+    "intent": "student_edit",
+    "keywords": ["edit student", "student edit", "update student", "modify student", "student information edit", "student details edit", "student record edit", "student data edit", "student information update", "student details update", "student record update", "student data update", "student information modify", "student details modify", "student record modify", "student data modify","student information kaise edit kare", "student details kaise edit kare", "student record kaise edit kare", "student data kaise edit kare"],
+    "answer": "Student Information → Student List → Student Search & filter → Edit Button Par Click Kare → Update student information → Upload student button",
+    "steps": [
+      "Student Information module open kare",
+      "Student List par jaye",
+      "Student search kare ya filter apply kare(class, section select karke)",
+      "Edit button par click kare(Right side me Action name ke column me edit icon hoga uspar click kare)",
+      "Student information update kare",
+      "Update karke save kare"
+    ]
+  },
+  {
+    "intent": "student_delete",
+    "keywords": ["delete student", "student delete", "remove student", "student ko delete kaise kare", "student remove kaise kare", "student delete kaise kare"],
+    "answer": "Student Information → Student List → Student Search & filter →  Delete Button → Confirm Delete",
+    "steps": [
+      "Student Information module open kare",
+      "Student List par jaye",
+      "Student search kare ya filter apply kare(class, section select karke)",
+      "Delete button par click kare(right side me Action name ke column me delete icon hoga uspar click kare)",
+      "Confirm delete kare"
+    ]
+  },
+  {
+    "intent": "student_attendance",
+    "keywords": ["attendance", "student attendance", "attendance lagana", "student ki attendance", "attendance mark karna", "attendance kaise lagaye", "student attendance kaise lagaye"],
+    "answer": "Student Information → Student Attendence → Select Class & Section → Find Student → Mark Present/Absent",
+    "steps": [
+      "Student Information module open kare",
+      "Student Attendence select kare",
+      "Select Class & Section find button par click kare",
+      "Attendance mark kare",
+      "Save kare"
+    ]
+  },
+  {
+    "intent": "behavior_record",
+    "keywords": ["student behavior", "behavior record", "student conduct", "conduct record", "student behavior record", "behavior record kaise add kare", "student conduct record kaise add kare"],
+    "answer": "Student Information → Behavior Record → Add new record → fill details → Add Record",
+    "steps": [
+      "Student Information module open kare",
+      "Behavior Record select kare",
+      "Add new record par click kare",
+      "Details fill kare",
+      "Add Record par click kare"
+    ]
+  },
+  {
+    "intent": "behavior_record_edit",
+    "keywords": ["student behavior edit", "behavior record edit", "student conduct edit", "conduct record edit", "student behavior record edit", "behavior record kaise edit kare", "student conduct record kaise edit kare"],
+    "answer": "Student Information → Behavior Record → Existing record me edit icon par click kare → Update details → Update Record",
+    "steps": [
+      "Student Information module open kare",
+      "Behavior Record select kare",
+      "Existing record me edit icon par click kare",
+      "Update details fill kare",
+      "Update Record par click kare"
+    ]
+  },
+  {
+    "intent": "behavior_record_delete",
+    "keywords": ["student behavior delete", "behavior record delete", "student conduct delete", "conduct record delete", "student behavior record delete", "behavior record kaise delete kare", "student conduct record kaise delete kare"],
+    "answer": "Student Information → Behavior Record → Existing record me delete icon par click kare → Confirm Delete",
+    "steps": [
+      "Student Information module open kare",
+      "Behavior Record select kare",
+      "Existing record me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "student_house",
+    "keywords": ["student house", "house add", "add house", "student house add", "house kaise add kare"],
+    "answer": "Student Information → Student House → Add new house → Save House",
+    "steps": [
+      "Student Information module open kare",
+      "Student House select kare",
+      "Add new house select kare",
+      "Save House par click kare"
+    ]
+  },
+  {
+    "intent": "student_category",
+    "keywords": ["student category", "category add", "add category", "student category add", "category kaise add kare"],
+    "answer": "Student Information → Student Categories → Add new category → Save Category",
+    "steps": [
+      "Student Information module open kare",
+      "Student Categories select kare",
+      "Add new category select kare",
+      "Save Category par click kare"
+    ]
+  },
+  {
+    "intent": "student_category_edit",
+    "keywords": ["student category edit", "category edit", "edit category", "student category update", "category kaise update kare"],
+    "answer": "Student Information → Student Categories → Existing category me edit icon par click kare → Update details → Update Category",
+    "steps": [
+      "Student Information module open kare",
+      "Student Categories select kare",
+      "Existing category me edit icon par click kare",
+      "Update details fill kare",
+      "Update Category par click kare"
+    ]
+  },
+  {
+    "intent": "student_category_delete",
+    "keywords": ["student category delete", "category delete", "delete category", "student category remove", "category kaise remove kare"],
+    "answer": "Student Information → Student Categories → Existing category me delete icon par click kare → Confirm Delete",
+    "steps": [
+      "Student Information module open kare",
+      "Student Categories select kare",
+      "Existing category me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "disable_student",
+    "keywords": ["disable student kaise dekhe", "disable student list", "deactivated student", "inactive student", "student disable list"],
+    "answer": "Student Information → Disabled Students",
+    "steps": [
+      "Student Information module open kare",
+      "Disabled Students select kare",
+      "Class select kare",
+      "Generate ID Card par click kare"
+    ]
+  },
+  {
+    "intent": "academic_sessions",
+    "keywords": ["academic sessions", "session create", "add session", "academic session add", "academic session kaise add kare", "session kaise add kare"],
+    "answer": "Academics → Academics Sessions → Add New Section → Save Session",
+    "steps": [
+      "Academics module open kare",
+      "Academics Sessions select kare",
+      "Add New Section par click kare",
+      "Academic Session select kare",
+      "Save Session par click kare"
+    ]
+  },
+  {
+    "intent": "academic_sessions_edit",
+    "keywords": ["academic sessions edit", "session edit", "edit session", "academic session update", "session kaise update kare"],
+    "answer": "Academics → Academics Sessions → Existing Session me edit icon par click kare → Update details → Save Session",
+    "steps": [
+      "Academics module open kare",
+      "Academics Sessions select kare",
+      "Existing Session me edit icon par click kare",
+      "Update details fill kare",
+      "Save Session par click kare"
+    ]
+  },
+  {
+    "intent": "academic_sessions_delete",
+    "keywords": ["academic sessions delete", "session delete", "delete session", "academic session remove", "session kaise remove kare"],
+    "answer": "Academics → Academics Sessions → Existing Session me delete icon par click kare → Confirm Delete",
+    "steps": [
+      "Academics module open kare",
+      "Academics Sessions select kare",
+      "Existing Session me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "classes",
+    "keywords": ["classes", "class create", "add class"],
+    "answer": "Academics → Classes → Add New Class → Save Class",
+    "steps": [
+      "Academics module open kare",
+      "Classes select kare",
+      "Add New Class par click kare",
+      "Class details fill kare",
+      "Create Class par click kare"
+    ]
+  },
+  {
+    "intent": "classes_edit",
+    "keywords": ["classes edit", "class edit", "edit class", "class update", "classes update", "class kaise edit kare", "class kaise update kare"],
+    "answer": "Academics → Classes → edit icon→ Update details → Save Class",
+    "steps": [
+      "Academics module open kare",
+      "Classes select kare",
+      "Existing Class me edit icon par click kare",
+      "Update details fill kare",
+      "Save Class par click kare"
+    ]
+  },
+  {
+    "intent": "classes_delete",
+    "keywords": ["classes delete", "class delete", "delete class", "class kaise delete kare"],
+    "answer": "Academics → Classes → delete icon → Confirm Delete",
+    "steps": [
+      "Academics module open kare",
+      "Classes select kare",
+      "Existing Class me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "sections",
+    "keywords": ["section", "section create", "add section", "new section", "section kaise add kare"],
+    "answer": "Academics → Sections → Add New Section → Create Section",
+    "steps": [
+      "Academics module open kare",
+      "Sections select kare",
+      "Add New Section par click kare",
+      "Create Section par click kare"
+    ]
+  },
+  {
+    "intent": "sections_edit",
+    "keywords": ["section edit", "edit section", "section update", "section kaise edit kare"],
+    "answer": "Academics → Sections → Existing Section me edit icon par click kare → Update details → Save Section",
+    "steps": [
+      "Academics module open kare",
+      "Sections select kare",
+      "Existing Section me edit icon par click kare",
+      "Update details fill kare",
+      "Save Section par click kare"
+    ]
+  },
+  {
+    "intent": "sections_delete",
+    "keywords": ["section delete", "delete section", "section kaise delete kare"],
+    "answer": "Academics → Sections → Existing Section me delete icon par click kare → Confirm Delete",
+    "steps": [
+      "Academics module open kare",
+      "Sections select kare",
+      "Existing Section me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "subject_add",
+    "keywords": ["subject add", "add subject", "new subject", "subject kaise add kare", "naya subject kaise add kare", "subject create", "create subject"],
+    "answer": "Academics → Subjects → Add New Subject → Save Subject",
+    "steps": [
+      "Academics module open kare",
+      "Subjects select kare",
+      "Add New Subject par click kare",
+      "Academic Session select kare",
+      "Save Subject par click kare"
+    ]
+  },
+  {
+    "intent": "subject_add_edit",
+    "keywords": ["subject add edit", "subject edit", "edit subject", "subject update", "subjects update", "subject kaise edit kare", "subject kaise update kare"],
+    "answer": "Academics → Subjects → edit icon → Update details → Save Subject",
+    "steps": [
+      "Academics module open kare",
+      "Subjects select kare",
+      "Existing Subject me edit icon par click kare",
+      "Update details fill kare",
+      "Save Subject par click kare"
+    ]
+  },
+  {
+    "intent": "subject_add_delete",
+    "keywords": ["subject delete", "delete subject", "subject kaise delete kare"],
+    "answer": "Academics → Subjects → delete icon → Confirm Delete",
+    "steps": [
+      "Academics module open kare",
+      "Subjects select kare",
+      "Existing Subject me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "assign_subjects",
+    "keywords": ["assign subjects", "subject assign", "assign subject to class", "class subject assign", "subject class assign", "subjects assign kaise kare"],
+    "answer": "Academics → Assign subjects → choose subject → Save all assignments",
+    "steps": [
+      "Academics open kare",
+      "Assign subjects select kare",
+      "Choose Subject class wise",
+      "Save All Assignments par click kare",
+      "Subject Assign ho jayega"
+    ]
+  },
+  {
+    "intent": "unassign_subjects",
+    "keywords": ["unassign subjects", "subject unassign", "unassign subject from class", "class subject unassign", "subject class unassign", "subjects unassign kaise kare"],
+    "answer": "Academics → Assign subjects → Untick subject → Save all assignments",
+    "steps": [
+      "Academics open kare",
+      "assign subjects select kare",
+      "Untick Subject class wise",
+      "Save All Assignments par click kare",
+      "Subject Unassign ho jayega"
+    ]
+  },
+  {
+    "intent": "assign_class_Teacher",
+    "keywords": [
+    "assign class teacher", 
+    "class teacher assign", 
+    "assign teacher to class", 
+    "teacher class assign", 
+    "class teacher kaise assign kare", 
+    "teacher class kaise assign kare", 
+    "assign class teacher kaise kare",
+    "class teacher ko subject assign kaise kare",
+    "teacher ko subject assign kaise kare",
+    "teacher subject add karne hain class me"
+  ],
+    "answer": "Academics → Assign Class Teacher → Choose Class → Select Teacher → Save Assignments",
+    "steps": [
+      "Academics open kare",
+      "Assign Class Teacher select kare",
+      "Class choose kare jisme teacher assign karna hai",
+      "Us class ke liye teacher select kare subject wise",
+      "Save Assignments par click kare"
+    ]
+  },
+  {
+    "intent": "unassign_class_Teacher",
+    "keywords": [
+    "unassign class teacher", 
+    "class teacher unassign", 
+    "unassign teacher from class", 
+    "teacher class unassign", 
+    "class teacher kaise unassign kare", 
+    "teacher class kaise unassign kare", 
+    "unassign class teacher kaise kare",
+    "class teacher ko subject unassign kaise kare",
+    "teacher ko subject unassign kaise kare"
+  ],
+    "answer": "Academics → Assign Class Teacher → Choose Class → Remove Teacher → Save Assignments",
+    "steps": [
+      "Academics open kare",
+      "Assign Class Teacher select kare",
+      "Class choose kare jisme teacher unassign karna hai",
+      "Us class ke liye teacher remove kare jis class ke liye teacher assign kiya gaya tha subject wise",
+      "Save Assignments par click kare"
+    ]
+  },
+  {
+    "intent": "assigne_attendance_teacher",
+    "keywords": ["assign attendance teacher", "attendance teacher assign", "assign teacher for attendance", "attendance teacher kaise assign kare", "teacher ko attendance assign kaise kare"],
+    "answer": "Academics → Assign Attendance Teacher → Class select kare → Selecttr Teacher → Save Assignments",
+    "steps": [
+      "Academics open kare",
+      "Assign Attendance Teacher select kare",
+      "Class select kare",
+      "Teacher select kare",
+      "Save Assignments par click kare"
+    ]
+  },
+  {
+    "intent": "manage_periods",
+    "keywords": ["manage periods", "period management", "add period", "period kaise add kare", "period management kaise kare", "manage class periods", "class periods management", "add class period", "class period kaise add kare", "class period management kaise kare"],
+    "answer": "Academics → Manage Periods → Add New Period → Save Period",
+    "steps": [
+      "Academics open kare",
+      "Manage Periods select kare",
+      "Add New Period par click kare",
+      "Period details fill kare",
+      "Save Period par click kare"
+    ]
+  },
+  {
+    "intent": "manage_periods_edit",
+    "keywords": ["manage periods edit", "period management edit", "edit period", "period kaise edit kare", "period management kaise kare", "manage class periods", "class periods management", "add class period", "class period kaise add kare", "class period management kaise kare"],
+    "answer": "Academics → Manage Periods → edit icon → Save Period",
+    "steps": [
+      "Academics open kare",
+      "Manage Periods select kare",
+      "Existing Period me edit icon par click kare",
+      "Period details update kare",
+      "Save Period par click kare"
+    ]
+  },
+  {
+    "intent": "manage_periods_delete",
+    "keywords": ["manage periods delete", "period management delete", "delete period", "period kaise delete kare", "period management kaise kare", "manage class periods", "class periods management", "add class period", "class period kaise add kare", "class period management kaise kare"],
+    "answer": "Academics → Manage Periods → delete icon → Save Period",
+    "steps": [
+      "Academics open kare",
+      "Manage Periods select kare",
+      "Existing Period me delete icon par click kare",
+      "Save Period par click kare"
+    ]
+  },
+  {
+    "intent": "class_timetable",
+    "keywords": ["class timetable", "timetable class", "manage timetable", "class timetable kaise generate kare", "timetable kaise manage kare", "class timetable generate kaise kare", "timetable generate kaise kare"],
+    "answer": "Academics → Class Timetable → Class & section  select kare  → Timetable generate kare",
+    "steps": [
+      "Academics open kare",
+      "Class Timetable select kare",
+      "Class aur section select kare",
+      "Timetable me student ke liye subjects aur uske respective teachers assign kare",
+      "Save & Print Receipt par click kare"
+    ]
+  },
+  {
+    "intent": "promote_students",
+    "keywords": ["promote students", "student promotion", "class promotion", "promote students kaise kare", "student promotion kaise kare", "class promotion kaise kare","student ko next class me kaise promote kare","student ko dusri class me kaise promote kare"],
+    "answer": "Academics → Promote Students → Class & current session select kare → find student → Promote Sessions → Promote class → Promote to section → Promote selected students",
+    "steps": [
+      "Academics open kare",
+      "Promote Students select kare",
+      "Current class aur session select kare",
+      "Find Students par click kare",
+      "Promote to session , Promote to class & Promote to section select kare",
+      "Select students jinko promote karna hai",
+      "Promote Students par click kare"
+    ]
+  },
+  {
+    "intent": "manage_vehicles",
+    "keywords": ["manage vehicles","vehicle", "vehicle management", "add vehicle", "vehicle kaise add kare", "vehicle management kaise kare", "transport vehicle add", "transport vehicle management", "add transport vehicle", "transport vehicle kaise add kare", "transport vehicle management kaise kare","vehical kaise create kare", "vehicle create", "add vehical", "transport vehical add", "transport vehical management", "add transport vehical", "transport vehical kaise add kare", "transport vehical management kaise kare"],
+    "answer": "Transport → Manage Vehicles → Add New Vehicle → Save Vehicle",
+    "steps": [
+      "Transport module open kare",
+      "Manage Vehicles select kare",
+      "Add New Vehicle par click kare",
+      "Academic Session select kare",
+      "Save Vehicle par click kare"
+    ]
+  },
+  {
+    "intent": "manage_vehicles_edit",
+    "keywords": ["manage vehicles edit", "vehicle management edit", "edit vehicle", "vehicle kaise edit kare", "vehicle management kaise kare", "transport vehicle edit"],
+    "answer": "Transport → Manage Vehicles → Edit Icon → Save Vehicle",
+    "steps": [
+      "Transport module open kare",
+      "Manage Vehicles select kare",
+      "Existing vehicle me edit icon par click kare",
+      "Vehicle details update kare",
+      "Save Vehicle par click kare"
+    ]
+  },
+  {
+    "intent": "manage_vehicles_delete",
+    "keywords": ["manage vehicles delete", "vehicle management delete", "delete vehicle", "vehicle kaise delete kare", "vehicle management kaise kare", "transport vehicle delete"],
+    "answer": "Transport → Manage Vehicles → Delete Icon → Confirm Delete",
+    "steps": [
+      "Transport module open kare",
+      "Manage Vehicles select kare",
+      "Existing vehicle me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "manage_routes",
+    "keywords": ["manage routes", "route management", "add route", "route kaise add kare", "route management kaise kare", "transport route add", "transport route management", "add transport route", "transport route kaise add kare", "transport route management kaise kare","route kaise create kare", "route create", "add route", "transport route add", "transport route management", "add transport route", "transport route kaise add kare", "transport route management kaise kare"],
+    "answer": "Transport → Manage Routes → Add New Route → Save Route",
+    "steps": [
+      "Transport module open kare",
+      "Manage Routes select kare",
+      "Add New Route par click kare",
+      "Route details add kare",
+      "Save Route par click kare"
+    ]
+  },
+  {
+    "intent": "manage_routes_edit",
+    "keywords": ["manage routes edit", "route management edit", "edit route", "route kaise edit kare", "route management kaise kare", "transport route edit", "transport route management edit"],
+    "answer": "Transport → Manage Routes → Edit Icon → Save Route",
+    "steps": [
+      "Transport module open kare",
+      "Manage Routes select kare",
+      "Existing route me edit icon par click kare",
+      "Route details update kare",
+      "Save Route par click kare"
+    ]
+  },
+  {
+    "intent": "manage_routes_delete",
+    "keywords": ["manage routes delete", "route management delete", "delete route", "route kaise delete kare", "route management kaise kare", "transport route delete", "transport route management delete"],
+    "answer": "Transport → Manage Routes → Delete Icon → Confirm Delete",
+    "steps": [
+      "Transport module open kare",
+      "Manage Routes select kare",
+      "Existing route me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "live_vehicle_tracking",
+    "keywords": ["live vehicle tracking", "vehicle location", "real-time vehicle tracking"],
+    "answer": "Transport → Live Vehicle Tracking → Select Vehicle → View Location",
+    "steps": [
+      "Transport module open kare",
+      "Live Vehicle Tracking select kare",
+      "Select Vehicle par click kare",
+      "View Location par click kare"
+    ]
+  },
+  {
+    "intent": "notice_upload",
+    "keywords": ["notice upload", "upload notice", "add notice","notice kaise upload kare", "notice kaise add kare", "notice board me notice kaise upload kare"],
+    "answer": "Communicate → Notice Board → Add new notice → Publish Notice",
+    "steps": [
+      "Communicate module open kare",
+      "Notice Board select kare",
+      "Add new notice par click kare",
+      "Notice details fill kare",
+      "Publish Notice par click kare"
+    ]
+  },
+  {
+    "intent": "notice_upload_edit",
+    "keywords": ["notice upload edit", "edit notice", "update notice edit","notice kaise edit kare", "notice kaise update kare", "notice board me notice kaise edit kare"],
+    "answer": "Communicate → Notice Board → Edit Notice → Publish Notice",
+    "steps": [
+      "Communicate module open kare",
+      "Notice Board select kare",
+      "Edit Notice par click kare",
+      "Notice details fill kare",
+      "Publish Notice par click kare"
+    ]
+  },
+  {
+    "intent": "notice_upload_delete",
+    "keywords": ["notice upload delete", "delete notice", "remove notice","notice kaise delete kare", "notice kaise remove kare", "notice board me notice kaise delete kare"],
+    "answer": "Communicate → Notice Board → Delete Notice → Confirm Delete",
+    "steps": [
+      "Communicate module open kare",
+      "Notice Board select kare",
+      "Delete Notice par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "events_holidays",
+    "keywords": ["event holiday", "holiday event", "school holiday", "add holiday", "holiday add", "holiday kaise add kare", "school holiday kaise add kare","event create", "create event", "add event", "event kaise add kare", "school event kaise add kare"],
+    "answer": "Communicate → Events & Holidays →Add New Event or Holiday  → Add Holiday → Create Event",
+    "steps": [
+      "Communicate module open kare",
+      "Events & Holidays select kare",
+      "Holiday Management select kare",
+      "Add Holiday par click kare",
+      "Save Holiday par click kare"
+    ]
+  },
+  {
+    "intent": "events_holidays_edit",
+    "keywords": ["event holiday edit", "holiday event edit", "school holiday edit" , "add holiday edit", "holiday add edit", "holiday kaise edit kare", "school holiday kaise edit kare","event create edit", "create event edit", "add event edit", "event kaise edit kare", "school event kaise edit kare"],
+    "answer": "Communicate → Events & Holidays → Edit icon → Update details → Save Holiday",
+    "steps": [
+      "Communicate module open kare",
+      "Events & Holidays select kare",
+      "Existing holiday me edit icon par click kare",
+      "Holiday details update kare",
+      "Save Holiday par click kare"
+
+    ]
+  },
+  {
+    "intent": "events_holidays_delete",
+    "keywords": ["event holiday delete", "holiday event delete", "school holiday delete" , "add holiday delete", "holiday add delete", "holiday kaise delete kare", "school holiday kaise delete kare","event create delete", "create event delete", "add event delete", "event kaise delete kare", "school event kaise delete kare"],
+    "answer": "Communicate → Events & Holidays → Delete icon → Confirm Delete",
+    "steps": [
+      "Communicate module open kare",
+      "Events & Holidays select kare",
+      "Existing holiday me delete icon par click kare",
+      "Confirm Delete par click kare"
+    ]
+  },
+  {
+    "intent": "issue_return_books",
+    "keywords": ["issue book", "library issue","book issue kaise kare", "book issue kaise kare", "library book issue kaise kare", "library book issue kaise kare", "issue issue books kaise kare", "library issue  books kaise kare"],
+    "answer": "Library → Issue/return Book → Student select kare → Search Book → Issue Book",
+    "steps": [
+      "Library open kare",
+      "Issue/return Book select kare",
+      "Student select kare",
+      "Search Book me book name type kare",
+      "Book issue kare"
+
+    ]
+  },
+  {
+    "intent": "issue_return_books",
+    "keywords": ["return book", "library return","book return kaise kare", "book return kaise kare", "library book return kaise kare", "library book return kaise kare", "return return books kaise kare", "library return  books kaise kare"],
+    "answer": "Library → Issue/return Book → Student select kare → Search Book → Return Book",
+    "steps": [
+      "Library open kare",
+      "Issue/return Book select kare",
+      "Student search kare jisko book return karna hai",
+      "Book return kare"
+    ]
+  },
+  {
+    "intent": "manage_books",
+    "keywords": ["manage books", "book management", "add book", "book kaise add kare", "book management kaise kare", "library book add", "library book management", "add library book", "library book kaise add kare", "library book management kaise kare","book create", "create book", "add book", "book kaise add kare", "library book kaise add kare", "library book management kaise kare"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Library module open kare",
+      "Manage Books select kare",
+      "Add New Book par click kare",
+      "Book details fill kare",
+      "Save Book par click kare"
+    ]
+  },
+  {
+    "intent": "manage_books_edit",
+    "keywords": ["manage books edit", "book management edit", "edit book", "book kaise edit kare", "book management kaise kare", "library book edit", "library book management", "edit library book", "library book kaise edit kare", "library book management kaise kare","book create", "create book", "add book", "book kaise add kare", "library book kaise add kare", "library book management kaise kare"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Library module open kare",
+      "Manage Books select kare",
+      "Existing book me edit icon par click kare",
+      "Book details update kare",
+      "Save Book par click kare"
+    ]
+  },
+  {
+    "intent": "manage_books_delete",
+    "keywords": ["manage books delete", "book management delete", "delete book", "book kaise delete kare", "book management kaise kare", "library book delete", "library book management", "delete library book", "library book kaise delete kare", "library book management kaise kare","book create", "create book", "add book", "book kaise add kare", "library book kaise add kare", "library book management kaise kare"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Library module open kare",
+      "Manage Books select kare",
+      "Existing book me delete icon par click kare",
+      "Book details update kare",
+      "Save Book par click kare"
+    ]
+  },
+  {
+    "intent": "Book_category",
+    "keywords": ["book category", "category add", "add book category", "book category kaise add kare", "library book category add", "library book category kaise add kare", "book category management", "manage book category", "library book category management", "library manage book category", "add library book category", "library book category kaise add kare", "library book category management kaise kare"],
+    "answer": "Library → Book Category → Add New Category → Save Category",
+    "steps": [
+      "Library module open kare",
+      "Book Category select kare",
+      "Add New Category par click kare",
+      "Category details fill kare",
+      "Save Category par click kare"
+    ]
+  },
+  {
+    "intent": "Book_category_edit",
+    "keywords": ["book category edit", "category edit", "edit book category", "book category kaise edit kare", "library book category edit", "library book category kaise edit kare", "book category management", "manage book category", "library book category management", "library manage book category", "edit library book category", "library book category kaise edit kare", "library book category management kaise kare"],
+    "answer": "Library → Book Category → edit icon → Update details → Save Category",
+    "steps": [
+      "Library module open kare",
+      "Book Category select kare",
+      "Existing category me edit icon par click kare",
+      "Category details update kare",
+      "Save Category par click kare"
+    ]
+  },
+  {
+    "intent": "Book_category_delete",
+    "keywords": ["book category delete", "category delete", "delete book category", "book category kaise delete kare", "library book category delete", "library book category kaise delete kare", "book category management", "manage book category", "library book category management", "library manage book category", "delete library book category", "library book category kaise delete kare", "library book category management kaise kare"],
+    "answer": "Library → Book Category → delete icon → Confirm deletion → Save Category",
+    "steps": [
+      "Library module open kare",
+      "Book Category select kare",
+      "Existing category me delete icon par click kare",
+      "Confirm deletion par click kare",
+      "Save Category par click kare"
+    ]
+  }
+]

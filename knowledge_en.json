@@ -1,0 +1,934 @@
+[
+  {
+    "intent": "student_dashboard",
+    "keywords": ["student dashboard", "student overview", "student summary", "student limit", "total students", "storage usage", "total fees due", "total staff"],
+    "answer": "Dashboard",
+    "steps": [
+      "See the Dashboard option on the top left side",
+      "Click on Dashboard",
+      "You will get the complete overview of the ERP Software which includes details like student limit, total students, storage usage, total fees due, total staff"
+    ]
+  },
+  {
+    "intent": "fees_collect",
+    "keywords": [
+      "fees collect",
+      "collect fees",
+      "fee collection",
+      "fees payment",
+      "collect fee",
+      "student fees collect",
+      "student fees collection",
+      "how to collect fees",
+      "method to collect fees"
+    ],
+    "answer": "Finance & Fees → Collect Fees → Fill Student Information → Filter → View & Collect → Select Fees type → Collect Selected → Save & Print Receipt",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Collect Fees option",
+      "Fill student information",
+      "Apply filter",
+      "Click on View & Collect",
+      "Select fees type and click on Collect Selected",
+      "Click on Save & Print Receipt"
+    ]
+  },
+  {
+  "intent": "search_due_fees",
+  "keywords": ["search due fees", "find due fees", "due fees search", "fees due search", "pending fees search", "due fees report", "fees due report", "pending fees report", "due fees"],
+  "answer": "Finance & Fees → Search Due Fees → Fill Student Information → Filter → View Due Amount",
+  "steps": [
+    "Open Finance & Fees module",
+    "Select Search Due Fees option",
+    "Fill student information",
+    "Apply filter",
+    "View Due Amount"
+  ]
+  },
+  {
+    "intent": "assign_fees",
+    "keywords": ["assign fees", "fees assign", "student fees assign", "fee assignment", "assign fee", "fees type assign", "assign fees to student", "assign fees to student", "how to assign fees"],
+    "answer": "Finance & Fees → Assign Fees → Select class → Retrieve Students → Select fee group → Choose Students → Assign Fees → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Assign Fees option",
+      "Select class",
+      "Click on Retrieve Students",
+      "Select fee group",
+      "Click on Choose Students",
+      "Scroll down and click on Assign Fees",
+      "Fees will be assigned",
+      "Search and verify the student",
+      "Status on the right side will show Assigned"
+    ]
+  },
+  {
+    "intent": "unassign_fees",
+    "keywords": ["unassign fees", "fees unassign", "student fees unassign", "fee unassignment", "unassign fee", "fees type unassign", "unassign fees from student", "unassign fees from student", "how to unassign fees"],
+    "answer": "Finance & Fees → assign Fees → Select class → Retrieve Students → unassign mode → Choose Students → Unassign Fees(delete)",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Assign Fees option",
+      "Select class",
+      "Click on Retrieve Students",
+      "Select unassign mode",
+      "Click on Choose Students",
+      "Scroll down and click on Unassign Fees(delete)",
+      "Fees will be unassigned",
+      "Search and verify the student",
+      "Status on the right side will show Not Assigned"
+    ]
+  },
+  {
+    "intent": "fees_type",
+    "keywords": ["fees type", "fee type", "student fees type", "fee categories", "fees category", "add fees type", "create fees type", "how to add fees type", "how to create fees type", "fees type setup", "fees type configuration"],
+    "answer": "Finance & Fees → Fee Types → Add new Fees Type → Create Fee Type → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Type option",
+      "Click on Add new Fees Type",
+      "Fill Fees Type name",
+      "Click on Create Fee Type"
+    ]
+  },
+  {
+    "intent": "fees_type_edit",
+    "keywords": ["fees type edit", "fee type edit", "student fees type edit", "fee categories edit", "fees category edit", "edit fees type", "edit fees type", "how to edit fees type"],
+    "answer": "Finance & Fees → Fee Types → Edit Fees Type → Update Fee Type → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Type option",
+      "Click on the edit icon from the existing fees type list on the right side",
+      "Update Fees Type name",
+      "Click on Update Fee Type"
+    ]
+  },
+  {
+    "intent": "fees_type_delete",
+    "keywords": ["fees type delete", "fee type delete", "student fees type delete", "fee categories delete", "fees category delete", "delete fees type", "delete fees type", "how to delete fees type"],
+    "answer": "Finance & Fees → Fee Types → Delete Fees Type → Confirm Delete → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Type option",
+      "Click on the delete icon from the existing fees type list on the right side",
+      "Confirm delete",
+      "Click on Save button"
+    ]
+  },
+  {
+    "intent": "fees_group",
+    "keywords": ["fees group", "fee group", "student fees group", "add fees group", "create fees group", "how to add fees group", "how to create fees group", "fees group setup", "fees group configuration"],
+    "answer": "Finance & Fees → Fee Groups → Add new Fees Group → Create Fee Group → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "First verify that Fees type is created or not, if not created then create fees type first",
+      "Select Fees Group option",
+      "Click on Add new Fees Group",
+      "Fill Fees Group name",
+      "Click on Add another row and select fees type, fill amount, select date, repeat if multiple fees types need to be added",
+      "Click on Create Fee Group"
+    ]
+  },
+  {
+    "intent": "fees_group_edit",
+    "keywords": ["fees group edit", "fee group edit", "student fees group edit", "edit fees group", "edit fees group", "how to edit fees group"],
+    "answer": "Finance & Fees → Fee Groups → Edit Fees Group → Update Fee Group → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Group option",
+      "Click on the edit icon from the existing fees group list on the right side",
+      "Update Fees Group name",
+      "Click on Update Fee Group"
+    ]
+  },
+  {
+    "intent": "fees_group_delete",
+    "keywords": ["fees group delete", "fee group delete", "student fees group delete", "delete fees group", "delete fees group", "how to delete fees group"],
+    "answer": "Finance & Fees → Fee Groups → Delete Fees Group → Confirm Delete → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Group option",
+      "Click on the delete icon from the existing fees group list on the right side",
+      "Confirm delete",
+      "Click on Save button"
+    ]
+  },
+  {
+    "intent": "fees_discount",
+    "keywords": ["fees discount", "fee discount", "student fees discount", "add fees discount", "create fees discount", "how to add fees discount"],
+    "answer": "Finance & Fees → Fee Discounts → Add new Fee Discount → Create Fee Discount → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Discount option",
+      "Click on Add new Fee Discount",
+      "Fill discount details",
+      "Click on Create Fee Discount"
+    ]
+  },
+  {
+    "intent": "fees_discount_edit",
+    "keywords": ["fees discount edit", "fee discount edit", "student fees discount edit", "edit fees discount", "edit fees discount", "how to edit fees discount"],
+    "answer": "Finance & Fees → Fee Discounts → Edit Fee Discount → Update Fee Discount → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Discount option",
+      "Click on the edit icon from the existing fees discount list on the right side",
+      "Update discount details",
+      "Click on Update Fee Discount"
+    ]
+  },
+  {
+    "intent": "fees_discount_delete",
+    "keywords": ["fees discount delete", "fee discount delete", "student fees discount delete", "delete fees discount", "delete fees discount", "how to delete fees discount"],
+    "answer": "Finance & Fees → Fee Discounts → Delete Fee Discount → Confirm Delete → Save",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Fees Discount option",
+      "Click on the delete icon from the existing fees discount list on the right side",
+      "Confirm delete",
+      "Click on Save button"
+    ]
+  },
+  {
+    "intent": "generate_due_slip",
+    "keywords": ["generate due slip", "due slip", "fees due slip", "class wise due slip", "monthly wise due slip", "due slip generate", "how to generate due slip", "how to create due slip"],
+    "answer": "Finance & Fees → Generate Due Slip → select month and year → Generate → Download PDF",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Generate Due Slip option",
+      "Select month and year",
+      "Click on Generate button",
+      "Click on Download PDF"
+    ]
+  },
+  {
+    "intent": "due_slip_history",
+    "keywords": ["due slip history", "generate due slip history", "fees due slip history", "how to view class wise due slip history", "how to view monthly wise due slip history", "student due slip history", "due slip history generate", "how to generate due slip history", "how to view due slip history"],
+    "answer": "Finance & Fees → Due Slip History → select month and year → Filter",
+    "steps": [
+      "Open Finance & Fees module",
+      "Select Due Slip History option",
+      "Select month and year",
+      "Click on Filter button"
+    ]
+  },
+  {
+    "intent": "admission",
+    "keywords": ["admission", "new admission", "student admission", "enroll student", "new enroll", "admission process", "how to do admission", "how to do student admission"],
+    "answer": "Student Information → Student Admission → Fill Student Information(Mandatory required fields) → Admit Student → Save",
+    "steps": [
+      "Open Student Information module",
+      "Select Student Admission option",
+      "Fill student information",
+      "Select class",
+      "Click on Admit Student",
+      "To verify student, go to Student List and search"
+    ]
+  },
+  {
+    "intent": "student_list",
+    "keywords": ["student list", "list student", "student details", "view students", "student information", "student record", "student database", "how to see all students", "I want to see all students", "how to view student list", "how to view student details"],
+    "answer": "Student Information → Student List → Student Search → View Details",
+    "steps": [
+      "Open Student Information module",
+      "Select Student List option",
+      "Search student or apply filter (select class, section) and apply filter",
+      "All students will be shown below (You can view more students at once using Show (10,25,50,100) option)"
+    ]
+  },
+  {
+    "intent": "student_data_import",
+    "keywords": ["student data import", "import student data", "excel student upload", "bulk student upload", "student data upload", "how to import student data", "how to upload student data via excel"],
+    "answer": "Student Information → Student List → Bulk Upload → Download CSV Format → Fill data in Excel format → Upload Data",
+    "steps": [
+      "Open Student Information module",
+      "Select Student List option",
+      "Select Bulk Upload option",
+      "Click on Download CSV Format",
+      "Fill data in Excel format",
+      "Click on Upload CSV or Excel",
+      "Click on Process Upload",
+      "To verify Excel file, go to Bulk Upload History and check",
+      "Or go to Dashboard and check student limit and total students, if total students shows an increase then understand that data has been imported successfully"
+    ]
+  },
+  {
+    "intent": "student_profile_view",
+    "keywords": ["view student profile", "student profile", "student information", "student details", "student record", "student data", "how to view student information", "how to view student details", "how to view student record", "how to view student data"],
+    "answer": "Student Information → Student List → Student Search & filter → Click on View Button → Can view Student Information",
+    "steps": [
+      "Open Student Information module",
+      "Go to Student List",
+      "Search student or apply filter (select class, section)",
+      "Click on View button (There will be a view icon in the Action column on the right side, click on it)",
+      "View student information"
+    ]
+  },
+  {
+    "intent": "student_disable",
+    "keywords": ["disable student", "student disable", "deactivate student", "how to disable student", "how to deactivate student", "do not want to delete student, want to disable"],
+    "answer": "Student Information → Student List → Student Search & filter → Click on Disable Button → Disable Student",
+    "steps": [
+      "Open Student Information module",
+      "Go to Student List",
+      "Search student or apply filter (select class, section)",
+      "Click on Disable button (There will be a disable icon in the Action column on the right side, click on it)",
+      "After disabling the student, verify in the student list whether the student shows as disabled or not"
+    ]
+  },
+  {
+    "intent": "student_edit",
+    "keywords": ["edit student", "student edit", "update student", "modify student", "student information edit", "student details edit", "student record edit", "student data edit", "student information update", "student details update", "student record update", "student data update", "student information modify", "student details modify", "student record modify", "student data modify", "how to edit student information", "how to edit student details", "how to edit student record", "how to edit student data"],
+    "answer": "Student Information → Student List → Student Search & filter → Click on Edit Button → Update student information → Upload student button",
+    "steps": [
+      "Open Student Information module",
+      "Go to Student List",
+      "Search student or apply filter (select class, section)",
+      "Click on Edit button (There will be an edit icon in the Action column on the right side, click on it)",
+      "Update student information",
+      "Update and save"
+    ]
+  },
+  {
+    "intent": "student_delete",
+    "keywords": ["delete student", "student delete", "remove student", "how to delete student", "how to remove student", "how to delete student"],
+    "answer": "Student Information → Student List → Student Search & filter → Delete Button → Confirm Delete",
+    "steps": [
+      "Open Student Information module",
+      "Go to Student List",
+      "Search student or apply filter (select class, section)",
+      "Click on Delete button (There will be a delete icon in the Action column on the right side, click on it)",
+      "Confirm delete"
+    ]
+  },
+  {
+    "intent": "student_attendance",
+    "keywords": ["attendance", "student attendance", "mark attendance", "student attendance", "mark attendance", "how to mark attendance", "how to mark student attendance"],
+    "answer": "Student Information → Student Attendance → Select Class & Section → Find Student → Mark Present/Absent",
+    "steps": [
+      "Open Student Information module",
+      "Select Student Attendance",
+      "Click on Select Class & Section find button",
+      "Mark attendance",
+      "Save"
+    ]
+  },
+  {
+    "intent": "behavior_record",
+    "keywords": ["student behavior", "behavior record", "student conduct", "conduct record", "student behavior record", "how to add behavior record", "how to add student conduct record"],
+    "answer": "Student Information → Behavior Record → Add new record → fill details → Add Record",
+    "steps": [
+      "Open Student Information module",
+      "Select Behavior Record",
+      "Click on Add new record",
+      "Fill details",
+      "Click on Add Record"
+    ]
+  },
+  {
+    "intent": "behavior_record_edit",
+    "keywords": ["student behavior edit", "behavior record edit", "student conduct edit", "conduct record edit", "student behavior record edit", "how to edit behavior record", "how to edit student conduct record"],
+    "answer": "Student Information → Behavior Record → Click on edit icon in existing record → Update details → Update Record",
+    "steps": [
+      "Open Student Information module",
+      "Select Behavior Record",
+      "Click on edit icon in existing record",
+      "Fill update details",
+      "Click on Update Record"
+    ]
+  },
+  {
+    "intent": "behavior_record_delete",
+    "keywords": ["student behavior delete", "behavior record delete", "student conduct delete", "conduct record delete", "student behavior record delete", "how to delete behavior record", "how to delete student conduct record"],
+    "answer": "Student Information → Behavior Record → Click on delete icon in existing record → Confirm Delete",
+    "steps": [
+      "Open Student Information module",
+      "Select Behavior Record",
+      "Click on delete icon in existing record",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "student_house",
+    "keywords": ["student house", "house add", "add house", "student house add", "how to add house"],
+    "answer": "Student Information → Student House → Add new house → Save House",
+    "steps": [
+      "Open Student Information module",
+      "Select Student House",
+      "Select Add new house",
+      "Click on Save House"
+    ]
+  },
+  {
+    "intent": "student_category",
+    "keywords": ["student category", "category add", "add category", "student category add", "how to add category"],
+    "answer": "Student Information → Student Categories → Add new category → Save Category",
+    "steps": [
+      "Open Student Information module",
+      "Select Student Categories",
+      "Select Add new category",
+      "Click on Save Category"
+    ]
+  },
+  {
+    "intent": "student_category_edit",
+    "keywords": ["student category edit", "category edit", "edit category", "student category update", "how to update category"],
+    "answer": "Student Information → Student Categories → Click on edit icon in existing category → Update details → Update Category",
+    "steps": [
+      "Open Student Information module",
+      "Select Student Categories",
+      "Click on edit icon in existing category",
+      "Fill update details",
+      "Click on Update Category"
+    ]
+  },
+  {
+    "intent": "student_category_delete",
+    "keywords": ["student category delete", "category delete", "delete category", "student category remove", "how to remove category"],
+    "answer": "Student Information → Student Categories → Click on delete icon in existing category → Confirm Delete",
+    "steps": [
+      "Open Student Information module",
+      "Select Student Categories",
+      "Click on delete icon in existing category",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "disable_student",
+    "keywords": ["how to view disabled students", "disabled student list", "deactivated student", "inactive student", "student disable list"],
+    "answer": "Student Information → Disabled Students",
+    "steps": [
+      "Open Student Information module",
+      "Select Disabled Students",
+      "Select class",
+      "Click on Generate ID Card"
+    ]
+  },
+  {
+    "intent": "academic_sessions",
+    "keywords": ["academic sessions", "session create", "add session", "academic session add", "how to add academic session", "how to add session"],
+    "answer": "Academics → Academics Sessions → Add New Section → Save Session",
+    "steps": [
+      "Open Academics module",
+      "Select Academics Sessions",
+      "Click on Add New Section",
+      "Select Academic Session",
+      "Click on Save Session"
+    ]
+  },
+  {
+    "intent": "academic_sessions_edit",
+    "keywords": ["academic sessions edit", "session edit", "edit session", "academic session update", "how to update session"],
+    "answer": "Academics → Academics Sessions → Click on edit icon in existing Session → Update details → Save Session",
+    "steps": [
+      "Open Academics module",
+      "Select Academics Sessions",
+      "Click on edit icon in existing Session",
+      "Fill update details",
+      "Click on Save Session"
+    ]
+  },
+  {
+    "intent": "academic_sessions_delete",
+    "keywords": ["academic sessions delete", "session delete", "delete session", "academic session remove", "how to remove session"],
+    "answer": "Academics → Academics Sessions → Click on delete icon in existing Session → Confirm Delete",
+    "steps": [
+      "Open Academics module",
+      "Select Academics Sessions",
+      "Click on delete icon in existing Session",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "classes",
+    "keywords": ["classes", "class create", "add class"],
+    "answer": "Academics → Classes → Add New Class → Save Class",
+    "steps": [
+      "Open Academics module",
+      "Select Classes",
+      "Click on Add New Class",
+      "Fill class details",
+      "Click on Create Class"
+    ]
+  },
+  {
+    "intent": "classes_edit",
+    "keywords": ["classes edit", "class edit", "edit class", "class update", "classes update", "how to edit class", "how to update class"],
+    "answer": "Academics → Classes → edit icon → Update details → Save Class",
+    "steps": [
+      "Open Academics module",
+      "Select Classes",
+      "Click on edit icon in existing Class",
+      "Fill update details",
+      "Click on Save Class"
+    ]
+  },
+  {
+    "intent": "classes_delete",
+    "keywords": ["classes delete", "class delete", "delete class", "how to delete class"],
+    "answer": "Academics → Classes → delete icon → Confirm Delete",
+    "steps": [
+      "Open Academics module",
+      "Select Classes",
+      "Click on delete icon in existing Class",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "sections",
+    "keywords": ["section", "section create", "add section", "new section", "how to add section"],
+    "answer": "Academics → Sections → Add New Section → Create Section",
+    "steps": [
+      "Open Academics module",
+      "Select Sections",
+      "Click on Add New Section",
+      "Click on Create Section"
+    ]
+  },
+  {
+    "intent": "sections_edit",
+    "keywords": ["section edit", "edit section", "section update", "how to edit section"],
+    "answer": "Academics → Sections → Click on edit icon in existing Section → Update details → Save Section",
+    "steps": [
+      "Open Academics module",
+      "Select Sections",
+      "Click on edit icon in existing Section",
+      "Fill update details",
+      "Click on Save Section"
+    ]
+  },
+  {
+    "intent": "sections_delete",
+    "keywords": ["section delete", "delete section", "how to delete section"],
+    "answer": "Academics → Sections → Click on delete icon in existing Section → Confirm Delete",
+    "steps": [
+      "Open Academics module",
+      "Select Sections",
+      "Click on delete icon in existing Section",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "subject_add",
+    "keywords": ["subject add", "add subject", "new subject", "how to add subject", "how to add new subject", "subject create", "create subject"],
+    "answer": "Academics → Subjects → Add New Subject → Save Subject",
+    "steps": [
+      "Open Academics module",
+      "Select Subjects",
+      "Click on Add New Subject",
+      "Select Academic Session",
+      "Click on Save Subject"
+    ]
+  },
+  {
+    "intent": "subject_add_edit",
+    "keywords": ["subject add edit", "subject edit", "edit subject", "subject update", "subjects update", "how to edit subject", "how to update subject"],
+    "answer": "Academics → Subjects → edit icon → Update details → Save Subject",
+    "steps": [
+      "Open Academics module",
+      "Select Subjects",
+      "Click on edit icon in existing Subject",
+      "Fill update details",
+      "Click on Save Subject"
+    ]
+  },
+  {
+    "intent": "subject_add_delete",
+    "keywords": ["subject delete", "delete subject", "how to delete subject"],
+    "answer": "Academics → Subjects → delete icon → Confirm Delete",
+    "steps": [
+      "Open Academics module",
+      "Select Subjects",
+      "Click on delete icon in existing Subject",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "assign_subjects",
+    "keywords": ["assign subjects", "subject assign", "assign subject to class", "class subject assign", "subject class assign", "how to assign subjects"],
+    "answer": "Academics → Assign subjects → choose subject → Save all assignments",
+    "steps": [
+      "Open Academics",
+      "Select Assign subjects",
+      "Choose Subject class wise",
+      "Click on Save All Assignments",
+      "Subject will be assigned"
+    ]
+  },
+  {
+    "intent": "unassign_subjects",
+    "keywords": ["unassign subjects", "subject unassign", "unassign subject from class", "class subject unassign", "subject class unassign", "how to unassign subjects"],
+    "answer": "Academics → Assign subjects → Untick subject → Save all assignments",
+    "steps": [
+      "Open Academics",
+      "Select assign subjects",
+      "Untick Subject class wise",
+      "Click on Save All Assignments",
+      "Subject will be unassigned"
+    ]
+  },
+  {
+    "intent": "assign_class_Teacher",
+    "keywords": [
+    "assign class teacher", 
+    "class teacher assign", 
+    "assign teacher to class", 
+    "teacher class assign", 
+    "how to assign class teacher", 
+    "how to assign teacher to class", 
+    "how to assign class teacher",
+    "how to assign subject to class teacher",
+    "how to assign subject to teacher",
+    "need to add subjects for teacher in class"
+  ],
+    "answer": "Academics → Assign Class Teacher → Choose Class → Select Teacher → Save Assignments",
+    "steps": [
+      "Open Academics",
+      "Select Assign Class Teacher",
+      "Choose the class in which teacher needs to be assigned",
+      "Select teacher subject wise for that class",
+      "Click on Save Assignments"
+    ]
+  },
+  {
+    "intent": "unassign_class_Teacher",
+    "keywords": [
+    "unassign class teacher", 
+    "class teacher unassign", 
+    "unassign teacher from class", 
+    "teacher class unassign", 
+    "how to unassign class teacher", 
+    "how to unassign teacher from class", 
+    "how to unassign class teacher",
+    "how to unassign subject from class teacher",
+    "how to unassign subject from teacher"
+  ],
+    "answer": "Academics → Assign Class Teacher → Choose Class → Remove Teacher → Save Assignments",
+    "steps": [
+      "Open Academics",
+      "Select Assign Class Teacher",
+      "Choose the class from which teacher needs to be unassigned",
+      "Remove the teacher for that class who was assigned subject wise",
+      "Click on Save Assignments"
+    ]
+  },
+  {
+    "intent": "assigne_attendance_teacher",
+    "keywords": ["assign attendance teacher", "attendance teacher assign", "assign teacher for attendance", "how to assign attendance teacher", "how to assign attendance to teacher"],
+    "answer": "Academics → Assign Attendance Teacher → Select Class → Select Teacher → Save Assignments",
+    "steps": [
+      "Open Academics",
+      "Select Assign Attendance Teacher",
+      "Select class",
+      "Select teacher",
+      "Click on Save Assignments"
+    ]
+  },
+  {
+    "intent": "manage_periods",
+    "keywords": ["manage periods", "period management", "add period", "how to add period", "how to do period management", "manage class periods", "class periods management", "add class period", "how to add class period", "how to do class period management"],
+    "answer": "Academics → Manage Periods → Add New Period → Save Period",
+    "steps": [
+      "Open Academics",
+      "Select Manage Periods",
+      "Click on Add New Period",
+      "Fill period details",
+      "Click on Save Period"
+    ]
+  },
+  {
+    "intent": "manage_periods_edit",
+    "keywords": ["manage periods edit", "period management edit", "edit period", "how to edit period", "how to do period management", "manage class periods", "class periods management", "add class period", "how to add class period", "how to do class period management"],
+    "answer": "Academics → Manage Periods → edit icon → Save Period",
+    "steps": [
+      "Open Academics",
+      "Select Manage Periods",
+      "Click on edit icon in existing Period",
+      "Update period details",
+      "Click on Save Period"
+    ]
+  },
+  {
+    "intent": "manage_periods_delete",
+    "keywords": ["manage periods delete", "period management delete", "delete period", "how to delete period", "how to do period management", "manage class periods", "class periods management", "add class period", "how to add class period", "how to do class period management"],
+    "answer": "Academics → Manage Periods → delete icon → Save Period",
+    "steps": [
+      "Open Academics",
+      "Select Manage Periods",
+      "Click on delete icon in existing Period",
+      "Click on Save Period"
+    ]
+  },
+  {
+    "intent": "class_timetable",
+    "keywords": ["class timetable", "timetable class", "manage timetable", "how to generate class timetable", "how to manage timetable", "how to generate class timetable", "how to generate timetable"],
+    "answer": "Academics → Class Timetable → Select Class & section → Generate timetable",
+    "steps": [
+      "Open Academics",
+      "Select Class Timetable",
+      "Select class and section",
+      "Assign subjects and their respective teachers for students in the timetable",
+      "Click on Save & Print Receipt"
+    ]
+  },
+  {
+    "intent": "promote_students",
+    "keywords": ["promote students", "student promotion", "class promotion", "how to promote students", "how to do student promotion", "how to do class promotion", "how to promote student to next class", "how to promote student to another class"],
+    "answer": "Academics → Promote Students → Select Class & current session → find student → Promote Sessions → Promote class → Promote to section → Promote selected students",
+    "steps": [
+      "Open Academics",
+      "Select Promote Students",
+      "Select current class and session",
+      "Click on Find Students",
+      "Select Promote to session, Promote to class & Promote to section",
+      "Select students to be promoted",
+      "Click on Promote Students"
+    ]
+  },
+  {
+    "intent": "manage_vehicles",
+    "keywords": ["manage vehicles", "vehicle", "vehicle management", "add vehicle", "how to add vehicle", "how to do vehicle management", "transport vehicle add", "transport vehicle management", "add transport vehicle", "how to add transport vehicle", "how to do transport vehicle management", "how to create vehicle", "vehicle create", "add vehicle", "add transport vehicle", "transport vehicle management", "add transport vehicle", "how to add transport vehicle", "how to do transport vehicle management"],
+    "answer": "Transport → Manage Vehicles → Add New Vehicle → Save Vehicle",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Vehicles",
+      "Click on Add New Vehicle",
+      "Select Academic Session",
+      "Click on Save Vehicle"
+    ]
+  },
+  {
+    "intent": "manage_vehicles_edit",
+    "keywords": ["manage vehicles edit", "vehicle management edit", "edit vehicle", "how to edit vehicle", "how to do vehicle management", "edit transport vehicle"],
+    "answer": "Transport → Manage Vehicles → Edit Icon → Save Vehicle",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Vehicles",
+      "Click on edit icon in existing vehicle",
+      "Update vehicle details",
+      "Click on Save Vehicle"
+    ]
+  },
+  {
+    "intent": "manage_vehicles_delete",
+    "keywords": ["manage vehicles delete", "vehicle management delete", "delete vehicle", "how to delete vehicle", "how to do vehicle management", "delete transport vehicle"],
+    "answer": "Transport → Manage Vehicles → Delete Icon → Confirm Delete",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Vehicles",
+      "Click on delete icon in existing vehicle",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "manage_routes",
+    "keywords": ["manage routes", "route management", "add route", "how to add route", "how to do route management", "transport route add", "transport route management", "add transport route", "how to add transport route", "how to do transport route management", "how to create route", "route create", "add route", "add transport route", "transport route management", "add transport route", "how to add transport route", "how to do transport route management"],
+    "answer": "Transport → Manage Routes → Add New Route → Save Route",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Routes",
+      "Click on Add New Route",
+      "Add route details",
+      "Click on Save Route"
+    ]
+  },
+  {
+    "intent": "manage_routes_edit",
+    "keywords": ["manage routes edit", "route management edit", "edit route", "how to edit route", "how to do route management", "edit transport route", "edit transport route management"],
+    "answer": "Transport → Manage Routes → Edit Icon → Save Route",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Routes",
+      "Click on edit icon in existing route",
+      "Update route details",
+      "Click on Save Route"
+    ]
+  },
+  {
+    "intent": "manage_routes_delete",
+    "keywords": ["manage routes delete", "route management delete", "delete route", "how to delete route", "how to do route management", "delete transport route", "delete transport route management"],
+    "answer": "Transport → Manage Routes → Delete Icon → Confirm Delete",
+    "steps": [
+      "Open Transport module",
+      "Select Manage Routes",
+      "Click on delete icon in existing route",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "live_vehicle_tracking",
+    "keywords": ["live vehicle tracking", "vehicle location", "real-time vehicle tracking"],
+    "answer": "Transport → Live Vehicle Tracking → Select Vehicle → View Location",
+    "steps": [
+      "Open Transport module",
+      "Select Live Vehicle Tracking",
+      "Click on Select Vehicle",
+      "Click on View Location"
+    ]
+  },
+  {
+    "intent": "notice_upload",
+    "keywords": ["notice upload", "upload notice", "add notice", "how to upload notice", "how to add notice", "how to upload notice on notice board"],
+    "answer": "Communicate → Notice Board → Add new notice → Publish Notice",
+    "steps": [
+      "Open Communicate module",
+      "Select Notice Board",
+      "Click on Add new notice",
+      "Fill notice details",
+      "Click on Publish Notice"
+    ]
+  },
+  {
+    "intent": "notice_upload_edit",
+    "keywords": ["notice upload edit", "edit notice", "update notice edit", "how to edit notice", "how to update notice", "how to edit notice on notice board"],
+    "answer": "Communicate → Notice Board → Edit Notice → Publish Notice",
+    "steps": [
+      "Open Communicate module",
+      "Select Notice Board",
+      "Click on Edit Notice",
+      "Fill notice details",
+      "Click on Publish Notice"
+    ]
+  },
+  {
+    "intent": "notice_upload_delete",
+    "keywords": ["notice upload delete", "delete notice", "remove notice", "how to delete notice", "how to remove notice", "how to delete notice on notice board"],
+    "answer": "Communicate → Notice Board → Delete Notice → Confirm Delete",
+    "steps": [
+      "Open Communicate module",
+      "Select Notice Board",
+      "Click on Delete Notice",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "events_holidays",
+    "keywords": ["event holiday", "holiday event", "school holiday", "add holiday", "holiday add", "how to add holiday", "how to add school holiday", "event create", "create event", "add event", "how to add event", "how to add school event"],
+    "answer": "Communicate → Events & Holidays → Add New Event or Holiday → Add Holiday → Create Event",
+    "steps": [
+      "Open Communicate module",
+      "Select Events & Holidays",
+      "Select Holiday Management",
+      "Click on Add Holiday",
+      "Click on Save Holiday"
+    ]
+  },
+  {
+    "intent": "events_holidays_edit",
+    "keywords": ["event holiday edit", "holiday event edit", "school holiday edit", "add holiday edit", "holiday add edit", "how to edit holiday", "how to edit school holiday", "event create edit", "create event edit", "add event edit", "how to edit event", "how to edit school event"],
+    "answer": "Communicate → Events & Holidays → Edit icon → Update details → Save Holiday",
+    "steps": [
+      "Open Communicate module",
+      "Select Events & Holidays",
+      "Click on edit icon in existing holiday",
+      "Update holiday details",
+      "Click on Save Holiday"
+    ]
+  },
+  {
+    "intent": "events_holidays_delete",
+    "keywords": ["event holiday delete", "holiday event delete", "school holiday delete", "add holiday delete", "holiday add delete", "how to delete holiday", "how to delete school holiday", "event create delete", "create event delete", "add event delete", "how to delete event", "how to delete school event"],
+    "answer": "Communicate → Events & Holidays → Delete icon → Confirm Delete",
+    "steps": [
+      "Open Communicate module",
+      "Select Events & Holidays",
+      "Click on delete icon in existing holiday",
+      "Click on Confirm Delete"
+    ]
+  },
+  {
+    "intent": "issue_return_books",
+    "keywords": ["issue book", "library issue", "how to issue book", "how to issue book", "how to issue library book", "how to issue library book", "how to issue books", "how to issue library books"],
+    "answer": "Library → Issue/return Book → Select Student → Search Book → Issue Book",
+    "steps": [
+      "Open Library",
+      "Select Issue/return Book",
+      "Select student",
+      "Type book name in Search Book",
+      "Issue book"
+    ]
+  },
+  {
+    "intent": "issue_return_books",
+    "keywords": ["return book", "library return", "how to return book", "how to return book", "how to return library book", "how to return library book", "how to return books", "how to return library books"],
+    "answer": "Library → Issue/return Book → Select Student → Search Book → Return Book",
+    "steps": [
+      "Open Library",
+      "Select Issue/return Book",
+      "Search the student to whom the book needs to be returned",
+      "Return book"
+    ]
+  },
+  {
+    "intent": "manage_books",
+    "keywords": ["manage books", "book management", "add book", "how to add book", "how to do book management", "add library book", "library book management", "add library book", "how to add library book", "how to do library book management", "book create", "create book", "add book", "how to add book", "how to add library book", "how to do library book management"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Open Library module",
+      "Select Manage Books",
+      "Click on Add New Book",
+      "Fill book details",
+      "Click on Save Book"
+    ]
+  },
+  {
+    "intent": "manage_books_edit",
+    "keywords": ["manage books edit", "book management edit", "edit book", "how to edit book", "how to do book management", "edit library book", "library book management", "edit library book", "how to edit library book", "how to do library book management", "book create", "create book", "add book", "how to add book", "how to add library book", "how to do library book management"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Open Library module",
+      "Select Manage Books",
+      "Click on edit icon in existing book",
+      "Update book details",
+      "Click on Save Book"
+    ]
+  },
+  {
+    "intent": "manage_books_delete",
+    "keywords": ["manage books delete", "book management delete", "delete book", "how to delete book", "how to do book management", "delete library book", "library book management", "delete library book", "how to delete library book", "how to do library book management", "book create", "create book", "add book", "how to add book", "how to add library book", "how to do library book management"],
+    "answer": "Library → Manage Books → Add New Book → Save Book",
+    "steps": [
+      "Open Library module",
+      "Select Manage Books",
+      "Click on delete icon in existing book",
+      "Update book details",
+      "Click on Save Book"
+    ]
+  },
+  {
+    "intent": "Book_category",
+    "keywords": ["book category", "category add", "add book category", "how to add book category", "add library book category", "how to add library book category", "book category management", "manage book category", "library book category management", "library manage book category", "add library book category", "how to add library book category", "how to do library book category management"],
+    "answer": "Library → Book Category → Add New Category → Save Category",
+    "steps": [
+      "Open Library module",
+      "Select Book Category",
+      "Click on Add New Category",
+      "Fill category details",
+      "Click on Save Category"
+    ]
+  },
+  {
+    "intent": "Book_category_edit",
+    "keywords": ["book category edit", "category edit", "edit book category", "how to edit book category", "edit library book category", "how to edit library book category", "book category management", "manage book category", "library book category management", "library manage book category", "edit library book category", "how to edit library book category", "how to do library book category management"],
+    "answer": "Library → Book Category → edit icon → Update details → Save Category",
+    "steps": [
+      "Open Library module",
+      "Select Book Category",
+      "Click on edit icon in existing category",
+      "Update category details",
+      "Click on Save Category"
+    ]
+  },
+  {
+    "intent": "Book_category_delete",
+    "keywords": ["book category delete", "category delete", "delete book category", "how to delete book category", "delete library book category", "how to delete library book category", "book category management", "manage book category", "library book category management", "library manage book category", "delete library book category", "how to delete library book category", "how to do library book category management"],
+    "answer": "Library → Book Category → delete icon → Confirm deletion → Save Category",
+    "steps": [
+      "Open Library module",
+      "Select Book Category",
+      "Click on delete icon in existing category",
+      "Click on Confirm deletion",
+      "Click on Save Category"
+    ]
+  }
+]
