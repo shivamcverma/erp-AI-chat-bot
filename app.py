@@ -6,7 +6,32 @@ import json
 import os
 import re
 from spellchecker import SpellChecker
+from datetime import datetime
 
+def save_chat(question, response_source):
+
+    log_file = "chat_logs.json"
+
+    log = {
+        "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "question": question,
+        "source": response_source
+    }
+
+    try:
+        if os.path.exists(log_file):
+            with open(log_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        else:
+            data = []
+
+        data.append(log)
+
+        with open(log_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+    except Exception as e:
+        print("Log Error:", e)
 # ================= LOAD ENV =================
 load_dotenv()
 
@@ -405,6 +430,7 @@ def chat():
         print("EXACT MATCH FOUND")
         print("INTENT:", best_exact_match.get("intent"))
         print("KEYWORD:", best_exact_keyword)
+        save_chat(user_message, "exact_match")
 
         return jsonify({
             "source": "knowledge_base",
@@ -473,7 +499,7 @@ def chat():
     # =====================================================
 
     if best_match and best_score >= 75:
-
+        save_chat(user_message, "knowledge_base")
         return jsonify({
             "source": "knowledge_base",
             "intent": best_match.get("intent"),
@@ -493,9 +519,10 @@ def chat():
         ) >= 70
         for kw in ERP_KEYWORDS
     )
+    save_chat(user_message, "restricted")
 
     if not is_erp_question:
-
+        save_chat(user_message, "knowledge_base")
         return jsonify({
             "source": "restricted",
             "reply": "Main sirf ERP software related questions me help kar sakta hu."
@@ -522,13 +549,14 @@ def chat():
         )
 
         reply = response.choices[0].message.content
-
+        save_chat(user_message, "ai")
         return jsonify({
             "source": "ai",
             "reply": reply
         })
 
     except Exception as e:
+        save_chat(user_message, "error")
 
         # print("AI ERROR:", str(e))
 

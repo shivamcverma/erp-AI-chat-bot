@@ -932,5 +932,712 @@
       "Confirm deletion par click kare",
       "Save Category par click kare"
     ]
+  },
+  {
+    "intent": "staff_directory",
+    "keywords": [
+      "staff directory","add staff directory","staff directory add","staff directory kaise add kare","add staff directory kaise kare","staff directory me staff kaise add kare","staff directory me new staff kaise add kare"
+    ],
+    "answer": "Human Resoure-> Staff Directory -> Add New Staff Button->details fill->save staff member",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Directory pe click kre",
+      "Add new staff button pe click kre",
+      "New Page open hogae usme details fill kre form pe only mandatory field fill kre",
+      "Save Staff member button pe click kre"
+    ]
+  },
+  {
+    "intent": "staff_directory_edit",
+    "keywords": [
+      "staff directory edit staff","edit staff directory","staff directory update staff","update staff directory","staff directory me staff kaise edit kare","staff directory me staff details kaise update kare","staff directory me staff information kaise update kare"
+    ],
+    "answer": "Human Resoure-> Staff Directory -edit icon->details update -> update staff button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Directory pe click kre",
+      "Existing right side Edit icon pe click kre",
+      "Page open hoga usme details edit krnge",
+      "Update Staff Information button pe click kr denge"
+    ]
+  },
+  {
+    "intent": "staff_directory_delete",
+    "keywords": [
+      "staff directory delete staff","delete staff directory","staff directory remove staff","remove staff from staff directory","staff directory me staff kaise delete kare","staff directory me staff kaise remove kare","staff directory me staff information kaise delete kare"
+    ],
+    "answer": "Human Resoure-> Staff Directory-> delete icon ->delete staff member",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Directory pe click kre",
+      "Existing right side Delete icon pe click kre",
+      "then delete staff member"
+    ]
+  },
+  {
+    "intent": "staff_directory_view",
+    "keywords": [
+      "staff directory view staff","view staff directory","staff directory staff details","staff directory me staff details kaise dekhe","staff directory me staff information kaise dekhe","staff directory me staff kaise view kare","staff directory me staff details kaise view kare","staff directory me staff information kaise view kare"
+    ],
+    "answer": "Human Resoure-> Staff Directory-> view icon -> show staff details",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Directory pe click krenge",
+      "Existing right side View icon pe click kre",
+      "then show staff details "
+    ]
+  },
+  {
+    "intent": "staff_attendance",
+    "keywords": [
+      "mark attendance","staff attendance mark attendance","mark staff attendance","staff attendance kaise mark kare","staff attendance me attendance kaise mark kare","mark attendance in staff attendance","staff attendance me staff ki attendance kaise mark kare","staff attendance me staff attendance details kaise fill kare","staff attendance me staff attendance kaise save kare","staff attendance me staff attendance details kaise fill kare and save kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Mark Attendance Button -> details fill ->save attendance",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Mark Attendance Button pe click krnge then popup form open hoga use me one by one staff ki details fill krknge",
+      "then save attendance pe click krke attendance save kr de"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily",
+    "keywords": [
+      "daily attendance","staff daily attendance","daily staff attendance","daily attendance kaise dekhe","staff daily attendance kaise dekhe","daily attendance details kaise dekhe","staff daily attendance details kaise dekhe","daily attendance details kaise view kare","staff daily attendance details kaise view kare","daily attendance details kaise show kare","staff daily attendance details kaise show kare","daily attendance details kaise access kare","staff daily attendance details kaise access kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Daily Button ->daily attendance details show",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Daily button pe click krnge then page open hoga jahan pe daily attendance details show honge"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily_attendance_filter",
+    "keywords": [
+      "daily attendance pe filter krna ","staff attendance daily attendance pe filter krna","daily attendance filter criteria","staff attendance daily attendance filter criteria","daily attendance me filter criteria kaise use kare","staff attendance daily attendance me filter criteria kaise use kare","daily attendance me filter criteria kaise apply kare","staff attendance daily attendance me filter criteria kaise apply kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Daily Button ->filter criteria show",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Daily button pe click krnge then page open hoga jahan pe daily attendance details show honge",
+      "then wahan pe filter criteria show hoga usme pehle department me dropdown me department select krnge,designation and then date",
+      "sb select krne ke baad apply button pe click kr denge",
+      "us filter ke according staff attendance details show honge"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily_attendance_status_marking",
+    "keywords": [
+      "daily attendance status marking ","staff attendance daily attendance status marking","daily attendance status mark kaise kare","staff attendance daily attendance status mark kaise kare","daily attendance me status mark kaise kare","staff attendance daily attendance me status mark kaise kare","daily attendance me staff ke liye status mark kaise kare","staff attendance daily attendance me staff ke liye status mark kaise kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Daily Button ->status marking",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Daily button pe click krnge then page open hoga jahan pe daily attendance details show honge",
+      "then show in header status marking isme hum present,absent,late,halfday pe click krnge",
+      "then save all pe click krnge"
+    ]
+  },
+  {
+    "intent": "staff_attendance_summary_filter",
+    "keywords": [
+      "staff attendance summary me filter","staff attendance summary filter criteria","staff attendance summary me filter criteria kaise use kare","academic session add","staff attendance summary me filter criteria kaise apply kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Staff Attendance Summary->filter criteria ,designation and then select month ->apply button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Staff Attendance Summary pe click krnge then page open hoga jahan pe all staff attendance summary show honge",
+      "then wahan pe filter criteria show hoga usme pehle department me dropdown me department select krnge,designation and then select month",
+      "apply button pe click krnge phir details dikhengi"
+    ]
+  },
+  {
+    "intent": "staff_attendance_member",
+    "keywords": [
+      "staff attendance  me member ke attendance details dekhna ,single staff attendance details dekhna","staff attendance me staff member ke attendance details dekhna","staff attendance me staff ke attendance details dekhna","staff attendance me staff member ke attendance details kaise dekhe","staff attendance me staff ke attendance details kaise dekhe","staff attendance me staff member ke attendance details kaise view kare","staff attendance me staff ke attendance details kaise view kare","staff attendance me staff member ke attendance details kaise show kare","staff attendance me staff ke attendance details kaise show kare"
+    ],
+    "answer": "Human Resource -> Staff Attendance ->Member->filter criteria ->apply button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff Attendance pe click kre",
+      "Member pe click krnge then page open hoga jahan pe filter criteria show hoga then select staff member in dropdown",
+      "apply button pe click krnge phir staff attendance details dikhengi"
+    ]
+  },
+  {
+    "intent": "payroll_genrate_payroll",
+    "keywords": [
+      "payroll me genrate payroll krnge","payroll me month and year select krke genrate payroll krna","payroll me filter criteria use krke genrate payroll krna","payroll me month and year select krke filter criteria use krke genrate payroll krna"
+    ],
+    "answer": "Human Resoure->Payroll->filter  ->generate payroll button->  payroll list ",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Payroll pe click kre",
+      "then filter  me month select krnge, year",
+      "generate payroll button pe click krnge",
+      "phir generated payroll list dikhegi"
+    ]
+  },
+  {
+    "intent": "payroll_view",
+    "keywords": [
+      "payroll me generated payroll list me view icon pe click krke payroll details dekhna","payroll me generated payroll list me view button pe click krke payroll details dekhna"
+    ],
+    "answer": "Human Resoure->Payroll-> filter->generate payroll button->  payroll list ",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Payroll pe click kre",
+      "then filter  me month select krnge, year",
+      "generate payroll button pe click krnge",
+      "phir generated payroll list dikhegi",
+      "then click on view icon to see payroll details"
+    ]
+  },
+  {
+    "intent": "payroll_summary_edit",
+    "keywords": [
+      "payroll summary me edit krna","payroll summary me details edit krna","payroll summary me details update krna","payroll summary me edit icon pe click krke details edit krna","payroll summary me view icon pe click krke payroll summary details page me edit icon pe click krke details edit krna"
+    ],
+    "answer": "Human Resoure->Payroll->view icon-> edit icon->details edit ->save changes",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Payroll pe click kre",
+      "payroll me view icon pe click krnge ",
+      "payroll summary details page open hoga phir usme edit icon pe click krnge",
+      "phir  page  open hoga jahan pe details edit kr denge",
+      "save changes pe click kr denge"
+    ]
+  },
+  {
+    "intent": "payroll_summary_delete",
+    "keywords": [
+      "payroll summary me delete krna"
+    ],
+    "answer": "Human Resoure->Payroll->view icon -> delete icon ->  summary delete ",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Payroll pe click kre",
+      "payroll me view icon pe click krnge ",
+      "payroll summary details page open hoga phir usme delete icon pe click krnge",
+      "then payroll summary delete ho jayegi"
+    ]
+  },
+  {
+    "intent": "payroll_delete",
+    "keywords": [
+      "payroll delete"
+    ],
+    "answer": "Human Resoure->Payroll->view playslip icon -> payment page->   delete icon",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Payroll  pe click krnge ",
+      "view icon pe click krke payroll summary dekhnge",
+      "phir wahan pe delete icon pe click krnge",
+      "then payroll delete ho jayega"
+    ]
+  },
+  {
+    "intent": "set_salary",
+    "keywords": [
+      "set salary","staff salary set krna","staff salary details add krna","staff salary details update krna","staff salary details kaise add kare","staff salary details kaise update kare","set salary me staff salary details kaise add kare","set salary me staff salary details kaise update kare"
+    ],
+    "answer": "Human Resoure->Set Salary->select staff -> fill salary details ->save salary structure", 
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Set Salary pe click kre",
+      "select staff dropdown pe click krke staff select krnge",
+      "all salaray details show",
+      "then in earning section click on earing button then add earing",
+      "or add deduction",
+      "then click on save salary structure button"
+    ]
+  },
+  {
+    "intent": "leave_types",
+    "keywords": [
+      "add new leave type","leave type add krna","leave type kaise add kare","leave types me new leave type kaise add kare"
+    ],
+    "answer": "Human Resoure->Leave Types module-> details fill ->save  button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Leave Types pe click kre",
+      "Add New Leave Type button pe click kre",
+      "ek page open hoga form ke sath",
+      "us form ko fill krnge",
+      "save button pe clicke krke leave type save kr de"
+    ]
+  },
+  {
+    "intent": "leave_types_edit",
+    "keywords": [
+      "leave type edit krna ","leave type update krna","leave type kaise update kare","leave types me leave type kaise update kare","edit leave type in leave types","update leave type in leave types","leave types me edit leave type kaise kare","leave types me update leave type kaise kare"
+    ],
+    "answer": "Human Resoure->Leave Types -> edit button ->form  update ->update button pe click krke leave type update kr denge",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Leave Types pe click kre",
+      "details ke aage edit button hoga uspe click krnge",
+      "ek page open usme form ko update krnge",
+      "update button pe click krke leave type update kr denge"
+    ]
+  },
+  {
+    "intent": "leave_types_delete",
+    "keywords": [
+      "leave type delete","leave type kaise delete kare","leave types me leave type kaise delete kare","delete leave type in leave types","delete leave type in leave types","leave types me delete leave type kaise kare"
+    ],
+    "answer": "Human Resoure->Leave Types ->delete icon->confirmdelete",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Leave Types pe click kre",
+      "details ke aage delete button hoga uspe click krnge",
+      "then details delete kr denge"
+    ]
+  },
+  {
+    "intent": "departments",
+    "keywords": [
+      "add new department","add department","department add krna","department kaise add kare","departments me new department kaise add kare","add new department in departments","add department in departments","department kaise add kare in departments"
+    ],
+    "answer": "Human Resoure->Departments->Add New Department button -> fill details ->save department button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Departments pe click kre",
+      "Add New Department button pe click krnge popup form open hoga",
+      "usme department name fill kre",
+      "save deparment button pe click kr denge"
+    ]
+  },
+  {
+    "intent": "departments_edit",
+    "keywords": [
+      "edit department","edit department kaise kare","departments me department kaise edit kare","edit department in departments","update department","update department kaise kare","departments me department kaise update kare","update department in departments"
+    ],
+    "answer": "Human Resoure->Departments->Edit icon ->then popup form open ->update form ->save deparment button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Departments pe click kre",
+      "Edit icon pe click krnge popup form open hoga",
+      "usme department name fill kre",
+      "save deparment button pe click kr denge"
+    ]
+  },
+  {
+    "intent": "departments_delete",
+    "keywords": [
+      "delete department","delete department kaise kare","departments me department kaise delete kare","delete department in departments"
+    ],
+    "answer": "Human Resoure->Departments->Delete icon ->then confirm delete",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Departments pe click kre",
+      "Delete icon pe click krnge",
+      "then confirm delete"
+    ]
+  },
+  {
+    "intent": "designations_add",
+    "keywords": [
+      "add new designation","designation add krna","designation kaise add kare","designations me new designation kaise add kare","add new designation in designations","add designation in designations","designation kaise add kare in designations"
+    ],
+    "answer": "Human Resoure->Designations->Add New Designation button->then popup form open -> designation name fill ->then save designation button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Designations pe click kre",
+      "Add New Designation button pe click krnge popup form open hoga",
+      "usme designation name fill kre",
+      "save designation button pe click kr denge"
+    ]
+  },
+  {
+    "intent": "designations_edit",
+    "keywords": [
+      "edit designation","edit designation kaise kare","designations me designation kaise edit kare","edit designation in designations","update designation","update designation kaise kare","designations me designation kaise update kare","update designation in designations"
+    ],
+    "answer": "Human Resoure->Designations->Edit icon->designation name fill ->then save designation button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Designations pe click kre",
+      "Edit icon pe click krnge popup form open hoga",
+      "usme designation name fill kre",
+      "save designation button pe click kr denge"
+    ]
+  },
+  {
+    "intent": "designations_delete",
+    "keywords": [
+      "delete designation krnge"
+    ],
+    "answer": "Human Resoure->Designations->Delete icon->designation delete button",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Designations pe click kre",
+      "Delete icon pe click krnge",
+      "then designation delete kr denge"
+    ]
+  },
+  {
+    "intent": "staff_id_card",
+    "keywords": [
+      "staff id card dekhna","print staff id card","staff id card kaise dekhna","staff id card kaise print kare","staff id card generate kaise kare","generate staff id card","staff id card details dekhna","staff id card details kaise dekhna","staff id card details print kaise kare","staff id card details generate kaise kare"
+    ],
+    "answer": "Human Resoure->Staff id card->select role,department,designation->search button->select template->generate id card",
+    "steps": [
+      "Human Resource Module Open Kare",
+      "Staff  id card pe click krenge",
+      "filter criteria select krnge jisme role select krnge dropdown me phir department select krnge  and phir designation select krnge",
+      "phir search button pe click krnge",
+      "phir iske according staff name ,id sb details dikhegni ,uske upper select template me template select krnge",
+      "phir genrate id card pe click kr denge",
+      "stafff id card download ho jayega"
+    ]
+  },
+  {
+    "intent": "create_certificate_templates",
+    "keywords": [
+      "create certificate","generate certificate","certificate kaise create kare","certificate kaise generate kare","student certificate","student certificate kaise create kare","student certificate kaise generate kare"
+    ],
+    "answer": "Human Resoure->Create Certificate->select role,department,designation->search button->select template->generate certificate",
+    "steps": [
+      "certificate templates open kare",
+      "create new certificate template pe click krnge",
+      "or yaha se new certificate template create kr skte hai"
+    ]
+  },
+  {
+    "intent": "generate_certificate",
+    "keywords": [
+      "generate certificate","generate certificate","certificate kaise generate kare","certificate kaise generate kare","student certificate","student certificate kaise generate kare","student id card kaise generate kare","generate student certificate","id card generate krna","generate id card"
+    ],
+    "answer": "Certificate->generate document->select class,section,student,templates,generate mode->generate print preview",
+    "steps": [
+      "Certificate module open kare",
+      "generate document pe click krnge",
+      "filter criteria select krnge jisme class,section,student,templates,generate mode select krnge",
+      "phir generate print preview pe click krnge",
+      "phir certificate generate ho jayega"
+    ]
+  },
+  {
+    "intent": "manage_hostel",
+    "keywords": [
+      "manage hostel","hostel management","hostel details","hostel kaise add kare","new hostel add krna","hostel kaise manage kare","hostel room details","hostel room details kaise add kare","hostel room details kaise manage kare","hostel create krna","create hostel"
+    ],
+    "answer": "hostel->manage hostel->Add new hostel->fill hostel details->create hostel",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Hostel pe click krnge",
+      "Add new hostel pe click krnge",
+      "hostel details fill krnge",
+      "create hostel pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_hostel_edit",
+    "keywords": [
+      "edit hostel","hostel edit","hostel details edit","hostel kaise update kare","new hostel update krna","hostel kaise edit kare","hostel room details edit","hostel room details kaise update kare","hostel room details kaise update kare","edit hostel"
+    ],
+    "answer": "hostel->manage hostel->Edit hostel->fill hostel details->update hostel",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Hostel pe click krnge",
+      "Edit icon pe click krnge popup form open hoga",
+       "hostel details update krnge",
+      "update hostel pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_hostel_delete",
+    "keywords": [
+      "delete hostel","hostel delete","hostel details delete","hostel kaise delete kare","new hostel delete krna","hostel kaise edit kare","hostel room details delete","hostel room details kaise delete kare","hostel room details kaise update kare","delete hostel"
+    ],
+    "answer": "hostel->manage hostel->Delete hostel->confirm deletion",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Hostel pe click krnge",
+      "Delete icon pe click krnge popup form open hoga",
+       "hostel details delete krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "room_types_add",
+    "keywords": [
+      "add room type","room type add","room types kaise add kare","new room type add krna","room type kaise create kare","room type details add","room type details kaise add kare"
+    ],
+    "answer": "hostel->room types->Add new room type->fill room type details->create room type",
+    "steps": [
+      "Hostel module open kare",
+      "Room Types pe click krnge",
+      "Add new room type pe click krnge",
+      "room type details fill krnge",
+      "create room type pe click krnge"
+    ]
+  },
+  {
+    "intent": "room_types_edit",
+    "keywords": [
+      "edit room type","room type edit","room types kaise edit kare","new room type edit krna","room type kaise update kare","room type details edit","room type details kaise update kare"
+    ],
+    "answer": "hostel->room types->Edit room type->fill room type details->update room type",
+    "steps": [
+      "Hostel module open kare",
+      "Room Types pe click krnge",
+      "Edit icon pe click krnge popup form open hoga",
+       "room type details update krnge",
+      "update room type pe click krnge"
+    ]
+  },
+  {
+    "intent": "room_types_delete",
+    "keywords": [
+      "delete room type","room type delete","room types kaise delete kare","new room type delete krna","room type kaise delete kare","room type details delete","room type details kaise delete kare"
+    ],
+    "answer": "hostel->room types->Delete room type->confirm deletion",
+    "steps": [
+      "Hostel module open kare",
+      "Room Types pe click krnge",
+      "Delete icon pe click krnge popup form open hoga",
+       "room type details delete krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_rooms",
+    "keywords": [
+      "add rooms","rooms kaise add kare","new room add krna","room new add kaise kare","room kaise add karu","new room create kaise kare","manage rooms add room","manage rooms kaise add room kare"
+    ],
+    "answer": "hostel->manage rooms->add new room->fill room details->create room",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Rooms pe click krnge",
+      "Add new room pe click krnge",
+      "room details fill krnge",
+      "create room pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_rooms_edit",
+    "keywords": [
+      "edit rooms","rooms kaise edit kare","new room edit krna","room new edit kaise kare","room kaise edit karu","new room update kaise kare","manage rooms edit room","manage rooms kaise edit room kare"
+    ],
+    "answer": "hostel->manage rooms->edit room->fill room details->update room",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Rooms pe click krnge",
+      "Edit icon pe click krnge popup form open hoga",
+      "room details update krnge",
+      "update room pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_rooms_delete",
+    "keywords": [
+      "delete rooms","rooms kaise delete kare","new room delete krna","room new delete kaise kare","room kaise delete karu","new room update kaise kare","manage rooms delete room","manage rooms kaise delete room kare"
+    ],
+    "answer": "hostel->manage rooms->delete room->confirm deletion",
+    "steps": [
+      "Hostel module open kare",
+      "Manage Rooms pe click krnge",
+      "Delete icon pe click krnge popup form open hoga",
+      "room details delete krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "student_room_allocate",
+    "keywords": [
+      "allocate rooms","rooms kaise allocate kare","new room allocate krna","room new allocate kaise kare","room kaise allocate karu","new room update kaise kare","manage rooms allocate room","manage rooms kaise allocate room kare","student room allocate","student room allocation","student room allocate kaise kare","student room allocation kaise kare"
+    ],
+    "answer": "hostel->student allocation->allocate student->confirm allocation",
+    "steps": [
+      "Hostel module open kare",
+      "student allocation pe click krnge",
+      "Allocate student button pe click krnge",
+      "select student",
+      "confirm allocation pe click krnge"
+    ]
+  },
+  {
+    "intent": "student_room_allocate_delete",
+    "keywords": [
+      "delete allocated rooms","allocated rooms kaise delete kare","new allocated room delete krna","allocated room new delete kaise kare","allocated room kaise delete karu","new allocated room update kaise kare","manage rooms delete allocated room","manage rooms kaise delete allocated room kare","student room allocate","student room allocation","student room allocate kaise kare","student room allocation kaise kare"
+    ],
+    "answer": "hostel->student allocation->delete allocated student->confirm deletion",
+    "steps": [
+      "Hostel module open kare",
+      "student allocation pe click krnge",
+      "Delete allocated student button pe click krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams",
+    "keywords": [
+    "add new exam","offline exam add krna","offline exam kaise add kare","new offline exam add krna","offline exam kaise create kare","manage offline exams add exam","manage offline exams kaise add exam kare"
+    ],
+    "answer": "Offline examination->manage offline exams->add exam->fill exam details->create exam",
+    "steps": [
+      "Offline examination module open kare",
+      "manage offline exams pe click krnge",
+      "Add exam button pe click krnge",
+      "exam details fill krnge",
+      "create exam pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams_edit",
+    "keywords": [
+    "edit offline exams","offline exam kaise edit kare","new offline exam edit krna","offline exam new edit kaise kare","offline exam kaise edit karu","new offline exam update kaise kare","manage offline exams edit exam","manage offline exams kaise edit exam kare"
+    ],
+    "answer": "Offline examination->manage offline exams->edit exam->fill exam details->update exam",
+    "steps": [
+      "Offline examination module open kare",
+      "manage offline exams pe click krnge",
+      "Edit exam button pe click krnge",
+      "exam details fill krnge",
+      "update exam pe click krnge"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams_delete",
+    "keywords": [
+    "delete offline exams","offline exam kaise delete kare","new offline exam delete krna","offline exam new delete kaise kare","offline exam kaise delete karu","new offline exam update kaise kare","manage offline exams delete exam","manage offline exams kaise delete exam kare"
+    ],
+    "answer": "Offline examination->manage offline exams->delete exam->confirm deletion",
+    "steps": [
+      "Offline examination module open kare",
+      "manage offline exams pe click krnge",
+      "Delete exam button pe click krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "exams_types",
+    "keywords": [
+    "add exam type","exam type add krna","exam type kaise add kare","new exam type add krna","exam type kaise create kare","manage exam types add exam type","manage exam types kaise add exam type kare"
+    ],
+    "answer": "Offline examination->exam types->add exam type->fill exam type details->create exam type",
+    "steps": [
+      "Offline examination module open kare",
+      "exam types pe click krnge",
+      "Add exam type button pe click krnge",
+      "exam type details fill krnge",
+      "create exam type pe click krnge"
+    ]
+  },
+  {
+    "intent": "exams_types_edit",
+    "keywords": [
+    "edit exam type","exam type kaise edit kare","new exam type edit krna","exam type new edit kaise kare","exam type kaise edit karu","new exam type update kaise kare","manage exam types edit exam type","manage exam types kaise edit exam type kare"
+    ],
+    "answer": "Offline examination->exam types->edit exam type->fill exam type details->update exam type",
+    "steps": [
+      "Offline examination module open kare",
+      "exam types pe click krnge",
+      "Edit exam type button pe click krnge",
+      "exam type details fill krnge",
+      "update exam type pe click krnge"
+    ]
+  },
+  {
+    "intent": "exams_types_delete",
+    "keywords": [
+    "delete exam type","exam type kaise delete kare","new exam type delete krna","exam type new delete kaise kare","exam type kaise delete karu","new exam type update kaise kare","manage exam types delete exam type","manage exam types kaise delete exam type kare"
+    ],
+    "answer": "Offline examination->exam types->delete exam type->confirm deletion",
+    "steps": [
+      "Offline examination module open kare",
+      "exam types pe click krnge",
+      "Delete exam type button pe click krnge",
+      "confirm deletion pe click krnge"
+    ]
+  },
+  {
+    "intent": "schedule_exams",
+    "keywords": [
+    "schedule exams","exams kaise schedule kare","new exams schedule krna","exams new schedule kaise kare","exams kaise schedule karu","new exams update kaise kare","manage exams schedule exams","manage exams kaise schedule exams kare"
+    ],
+    "answer": "Offline examination->schedule & mark setup->select exam and class->create schhedule",
+    "steps": [
+      "Offline examination module open kare",
+      "schedule & mark setup pe click krnge",
+      "select exam and class pe click krnge",
+      "create schedule pe click krnge"
+    ]
+  },
+ {
+    "intent": "enter_marks",
+    "keywords": [
+    "enter marks","marks kaise enter kare","new marks enter krna","marks new enter kaise kare","marks kaise enter karu","new marks update kaise kare","manage marks enter marks","manage marks kaise enter marks kare","enter marks for offline exam","offline exam ke marks kaise enter kare","enter marks for offline exam kaise kare","studendt marks enter krna","student marks kaise enter kare","student marks enter kaise kare"
+    ],
+    "answer": "Offline examination->enter marks->select exam,clas,section and subject->enter load student button",
+    "steps": [
+      "Offline examination module open kare",
+      "enter marks pe click krnge",
+      "select exam, class, section and subject pe click krnge",
+      "enter load student button pe click krnge",
+      "then enter marks for students and save marks"
+    ]
+  },
+  {
+    "intent": "admit_card",
+    "keywords": [
+    "admit card","admit card kaise generate kare","new admit card generate krna","admit card new generate kaise kare","admit card kaise generate karu","new admit card update kaise kare","manage admit cards admit card","manage admit cards kaise admit card kare"
+    ],
+    "answer": "Offline examination->admit card->select exam and class->select student and generate admit card",
+    "steps": [
+      "Offline examination module open kare",
+      "generate admit card pe click krnge",
+      "select exam,class and section select krnge",
+      "select student or all student pe click krnge",
+      "generate admit card pe click krnge"
+    ]
+  },
+  {
+    "intent": "marksheet",
+    "keywords": [
+    "marksheet","marksheet kaise generate kare","new marksheet generate krna","marksheet new generate kaise kare","marksheet kaise generate karu","new marksheet update kaise kare","manage marksheet marksheet","manage marksheet kaise marksheet kare"
+    ],
+    "answer": "Offline examination->marksheet->select exam and class->select student and generate marksheet",
+    "steps": [
+      "Offline examination module open kare",
+      "generate marksheet pe click krnge",
+      "select report card type,class and section select krnge",
+      "search button pe click krnge",
+      "generate report card pe click krnge"
+    ]
+  },
+  {
+    "intent": "online_exam",
+    "keywords": [
+    "add online exam","online exam kaise add kare","new online exam add krna","online exam new add kaise kare","online exam kaise create kare","manage online exams add online exam","manage online exams kaise add online exam kare"
+    ],
+    "answer": "Online examination->manage online exams->create new exam->fill details->create exam",
+    "steps": [
+      "Online examination module open kare",
+      "manage online exams pe click krnge",
+      "create new exam pe click krnge",
+      "exam details fill krnge",
+      "create exam pe click krnge"
+    ]
+  },
+  {
+    "intent": "question_bank",
+    "keywords": [
+    "add question","question kaise add kare","new question add krna","question new add kaise kare","question kaise create kare","manage questions add question","manage questions kaise add question kare"
+    ],
+    "answer": "Online examination->question bank->create new question->fill details->create question",
+    "steps": [
+      "Online examination module open kare",
+      "question bank pe click krnge",
+      "create new question pe click krnge",
+      "question details fill krnge",
+      "create question pe click krnge"
+    ]
   }
 ]

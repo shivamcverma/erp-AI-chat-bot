@@ -1,3 +1,15 @@
+function saveChat() {
+    localStorage.setItem(
+        "erp_chat_history",
+        document.getElementById("chat-box").innerHTML
+    );
+
+    localStorage.setItem(
+        "erp_chat_time",
+        Date.now()
+    );
+}
+
 async function sendMessage() {
 
     let input = document.getElementById("message");
@@ -9,6 +21,8 @@ async function sendMessage() {
 
     // User message
     chatBox.innerHTML += `<div class="user">You: ${message}</div>`;
+    saveChat();
+
     input.value = "";
 
     // Thinking message
@@ -38,7 +52,6 @@ async function sendMessage() {
 
         console.log("DEBUG:", data);
 
-        // Minimum 1.5 second thinking effect
         setTimeout(() => {
 
             let thinkingDiv = document.getElementById(thinkingId);
@@ -47,7 +60,8 @@ async function sendMessage() {
 
                 thinkingDiv.innerHTML = data.answer;
 
-                // Steps
+                saveChat();
+
                 if (data.steps && data.steps.length > 0) {
 
                     let stepHtml = "<ul>";
@@ -64,6 +78,8 @@ async function sendMessage() {
                             ${stepHtml}
                         </div>
                     `;
+
+                    saveChat();
                 }
 
             } else {
@@ -71,11 +87,13 @@ async function sendMessage() {
                 let reply = data.reply || "No response";
 
                 thinkingDiv.innerHTML = reply;
+
+                saveChat();
             }
 
             chatBox.scrollTop = chatBox.scrollHeight;
 
-        }, 1500); // 1.5 second wait
+        }, 1500);
 
     } catch (error) {
 
@@ -86,5 +104,28 @@ async function sendMessage() {
         if (thinkingDiv) {
             thinkingDiv.innerHTML = "Server Error";
         }
+
+        saveChat();
     }
 }
+window.onload = function () {
+
+    let savedChat = localStorage.getItem("erp_chat_history");
+    let savedTime = localStorage.getItem("erp_chat_time");
+
+    if (savedChat && savedTime) {
+
+        let age = Date.now() - parseInt(savedTime);
+
+        // 24 hours
+        if (age < 24 * 60 * 60 * 1000) {
+
+            document.getElementById("chat-box").innerHTML = savedChat;
+
+        } else {
+
+            localStorage.removeItem("erp_chat_history");
+            localStorage.removeItem("erp_chat_time");
+        }
+    }
+};

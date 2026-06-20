@@ -1,0 +1,6 @@
+Flask
+openai
+rapidfuzz
+python-dotenv
+pyspellchecker
+gunicorn

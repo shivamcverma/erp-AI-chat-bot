@@ -930,5 +930,1047 @@
       "Click on Confirm deletion",
       "Click on Save Category"
     ]
+  },
+  {
+    "intent": "staff_directory",
+    "keywords": [
+      "staff directory",
+      "add staff directory",
+      "staff directory add",
+      "how to add staff directory",
+      "how to add staff directory",
+      "how to add staff in staff directory",
+      "how to add new staff in staff directory"
+    ],
+    "answer": "Human Resource -> Staff Directory -> Add New Staff Button -> fill details -> save staff member",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Directory",
+      "Click on Add New Staff button",
+      "A new page will open, fill in the details on the form (only mandatory fields)",
+      "Click on Save Staff Member button"
+    ]
+  },
+  {
+    "intent": "staff_directory_edit",
+    "keywords": [
+      "staff directory edit staff",
+      "edit staff directory",
+      "staff directory update staff",
+      "update staff directory",
+      "how to edit staff in staff directory",
+      "how to update staff details in staff directory",
+      "how to update staff information in staff directory"
+    ],
+    "answer": "Human Resource -> Staff Directory -> edit icon -> update details -> update staff button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Directory",
+      "Click on the Edit icon on the right side of existing record",
+      "A page will open, edit the details",
+      "Click on Update Staff Information button"
+    ]
+  },
+  {
+    "intent": "staff_directory_delete",
+    "keywords": [
+      "staff directory delete staff",
+      "delete staff directory",
+      "staff directory remove staff",
+      "remove staff from staff directory",
+      "how to delete staff in staff directory",
+      "how to remove staff in staff directory",
+      "how to delete staff information in staff directory"
+    ],
+    "answer": "Human Resource -> Staff Directory -> delete icon -> delete staff member",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Directory",
+      "Click on the Delete icon on the right side of existing record",
+      "then delete staff member"
+    ]
+  },
+  {
+    "intent": "staff_directory_view",
+    "keywords": [
+      "staff directory view staff",
+      "view staff directory",
+      "staff directory staff details",
+      "how to view staff details in staff directory",
+      "how to view staff information in staff directory",
+      "how to view staff in staff directory",
+      "how to view staff details in staff directory",
+      "how to view staff information in staff directory"
+    ],
+    "answer": "Human Resource -> Staff Directory -> view icon -> show staff details",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Directory",
+      "Click on the View icon on the right side of existing record",
+      "then show staff details"
+    ]
+  },
+  {
+    "intent": "staff_attendance",
+    "keywords": [
+      "mark attendance",
+      "staff attendance mark attendance",
+      "mark staff attendance",
+      "how to mark staff attendance",
+      "how to mark attendance in staff attendance",
+      "how to mark attendance in staff attendance",
+      "how to mark staff attendance in staff attendance",
+      "how to fill staff attendance details in staff attendance",
+      "how to save staff attendance in staff attendance",
+      "how to fill and save staff attendance details in staff attendance"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Mark Attendance Button -> fill details -> save attendance",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Mark Attendance Button, then a popup form will open, fill in the details for each staff one by one",
+      "then click on save attendance to save the attendance"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily",
+    "keywords": [
+      "daily attendance",
+      "staff daily attendance",
+      "daily staff attendance",
+      "how to view daily attendance",
+      "how to view staff daily attendance",
+      "how to view daily attendance details",
+      "how to view staff daily attendance details",
+      "how to view daily attendance details",
+      "how to view staff daily attendance details",
+      "how to show daily attendance details",
+      "how to show staff daily attendance details",
+      "how to access daily attendance details",
+      "how to access staff daily attendance details"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Daily Button -> daily attendance details show",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Daily button, then a page will open showing daily attendance details"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily_attendance_filter",
+    "keywords": [
+      "filter on daily attendance",
+      "filter on staff attendance daily attendance",
+      "daily attendance filter criteria",
+      "staff attendance daily attendance filter criteria",
+      "how to use filter criteria in daily attendance",
+      "how to use filter criteria in staff attendance daily attendance",
+      "how to apply filter criteria in daily attendance",
+      "how to apply filter criteria in staff attendance daily attendance"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Daily Button -> filter criteria show",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Daily button, then a page will open showing daily attendance details",
+      "then filter criteria will be shown there, first select department from the department dropdown, then designation, and then date",
+      "after selecting all, click on the apply button",
+      "staff attendance details will be shown according to the filter"
+    ]
+  },
+  {
+    "intent": "staff_attendance_daily_attendance_status_marking",
+    "keywords": [
+      "daily attendance status marking",
+      "staff attendance daily attendance status marking",
+      "how to mark daily attendance status",
+      "how to mark staff attendance daily attendance status",
+      "how to mark status in daily attendance",
+      "how to mark status in staff attendance daily attendance",
+      "how to mark status for staff in daily attendance",
+      "how to mark status for staff in staff attendance daily attendance"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Daily Button -> status marking",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Daily button, then a page will open showing daily attendance details",
+      "then in the header, status marking is shown, here we will click on present, absent, late, halfday",
+      "then click on save all"
+    ]
+  },
+  {
+    "intent": "staff_attendance_summary_filter",
+    "keywords": [
+      "filter in staff attendance summary",
+      "staff attendance summary filter criteria",
+      "how to use filter criteria in staff attendance summary",
+      "academic session add",
+      "how to apply filter criteria in staff attendance summary"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Staff Attendance Summary -> filter criteria, designation and then select month -> apply button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Staff Attendance Summary, then a page will open showing all staff attendance summary",
+      "then filter criteria will be shown there, first select department from the department dropdown, then designation, and then select month",
+      "click on the apply button, then details will be shown"
+    ]
+  },
+  {
+    "intent": "staff_attendance_member",
+    "keywords": [
+      "view member attendance details in staff attendance",
+      "view single staff attendance details",
+      "view staff member attendance details in staff attendance",
+      "view staff attendance details in staff attendance",
+      "how to view staff member attendance details in staff attendance",
+      "how to view staff attendance details in staff attendance",
+      "how to view staff member attendance details in staff attendance",
+      "how to view staff attendance details in staff attendance",
+      "how to show staff member attendance details in staff attendance",
+      "how to show staff attendance details in staff attendance"
+    ],
+    "answer": "Human Resource -> Staff Attendance -> Member -> filter criteria -> apply button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff Attendance",
+      "Click on Member, then a page will open showing filter criteria, then select staff member from dropdown",
+      "click on the apply button, then staff attendance details will be shown"
+    ]
+  },
+  {
+    "intent": "payroll_genrate_payroll",
+    "keywords": [
+      "generate payroll in payroll module",
+      "generate payroll by selecting month and year in payroll",
+      "generate payroll using filter criteria in payroll",
+      "generate payroll by selecting month and year and using filter criteria in payroll"
+    ],
+    "answer": "Human Resource -> Payroll -> filter -> generate payroll button -> payroll list",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Payroll",
+      "then in filter, select month and year",
+      "click on generate payroll button",
+      "then generated payroll list will be shown"
+    ]
+  },
+  {
+    "intent": "payroll_view",
+    "keywords": [
+      "view payroll details by clicking on view icon in generated payroll list",
+      "view payroll details by clicking on view button in generated payroll list"
+    ],
+    "answer": "Human Resource -> Payroll -> filter -> generate payroll button -> payroll list",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Payroll",
+      "then in filter, select month and year",
+      "click on generate payroll button",
+      "then generated payroll list will be shown",
+      "then click on view icon to see payroll details"
+    ]
+  },
+  {
+    "intent": "payroll_summary_edit",
+    "keywords": [
+      "edit in payroll summary",
+      "edit details in payroll summary",
+      "update details in payroll summary",
+      "edit details by clicking on edit icon in payroll summary",
+      "edit details by clicking on view icon in payroll summary then clicking on edit icon on payroll summary details page"
+    ],
+    "answer": "Human Resource -> Payroll -> view icon -> edit icon -> details edit -> save changes",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Payroll",
+      "click on view icon in payroll",
+      "payroll summary details page will open, then click on the edit icon",
+      "then a page will open where you can edit the details",
+      "click on save changes"
+    ]
+  },
+  {
+    "intent": "payroll_summary_delete",
+    "keywords": [
+      "delete in payroll summary"
+    ],
+    "answer": "Human Resource -> Payroll -> view icon -> delete icon -> summary delete",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Payroll",
+      "click on view icon in payroll",
+      "payroll summary details page will open, then click on the delete icon",
+      "then payroll summary will be deleted"
+    ]
+  },
+  {
+    "intent": "payroll_delete",
+    "keywords": [
+      "payroll delete"
+    ],
+    "answer": "Human Resource -> Payroll -> view payslip icon -> payment page -> delete icon",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Payroll",
+      "click on view icon to view payroll summary",
+      "then click on the delete icon there",
+      "then payroll will be deleted"
+    ]
+  },
+  {
+    "intent": "set_salary",
+    "keywords": [
+      "set salary",
+      "set staff salary",
+      "add staff salary details",
+      "update staff salary details",
+      "how to add staff salary details",
+      "how to update staff salary details",
+      "how to add staff salary details in set salary",
+      "how to update staff salary details in set salary"
+    ],
+    "answer": "Human Resource -> Set Salary -> select staff -> fill salary details -> save salary structure",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Set Salary",
+      "click on select staff dropdown and select staff",
+      "all salary details will be shown",
+      "then in earning section, click on earning button then add earning",
+      "or add deduction",
+      "then click on save salary structure button"
+    ]
+  },
+  {
+    "intent": "leave_types",
+    "keywords": [
+      "add new leave type",
+      "add leave type",
+      "how to add leave type",
+      "how to add new leave type in leave types"
+    ],
+    "answer": "Human Resource -> Leave Types module -> fill details -> save button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Leave Types",
+      "Click on Add New Leave Type button",
+      "a page will open with a form",
+      "fill that form",
+      "click on save button to save the leave type"
+    ]
+  },
+  {
+    "intent": "leave_types_edit",
+    "keywords": [
+      "edit leave type",
+      "update leave type",
+      "how to update leave type",
+      "how to update leave type in leave types",
+      "edit leave type in leave types",
+      "update leave type in leave types",
+      "how to edit leave type in leave types",
+      "how to update leave type in leave types"
+    ],
+    "answer": "Human Resource -> Leave Types -> edit button -> update form -> click on update button to update leave type",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Leave Types",
+      "there will be an edit button next to the details, click on it",
+      "a page will open, update the form",
+      "click on update button to update the leave type"
+    ]
+  },
+  {
+    "intent": "leave_types_delete",
+    "keywords": [
+      "leave type delete",
+      "how to delete leave type",
+      "how to delete leave type in leave types",
+      "delete leave type in leave types",
+      "delete leave type in leave types",
+      "how to delete leave type in leave types"
+    ],
+    "answer": "Human Resource -> Leave Types -> delete icon -> confirm delete",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Leave Types",
+      "there will be a delete button next to the details, click on it",
+      "then details will be deleted"
+    ]
+  },
+  {
+    "intent": "departments",
+    "keywords": [
+      "add new department",
+      "add department",
+      "add department",
+      "how to add department",
+      "how to add new department in departments",
+      "add new department in departments",
+      "add department in departments",
+      "how to add department in departments"
+    ],
+    "answer": "Human Resource -> Departments -> Add New Department button -> fill details -> save department button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Departments",
+      "Click on Add New Department button, a popup form will open",
+      "fill in the department name",
+      "click on save department button"
+    ]
+  },
+  {
+    "intent": "departments_edit",
+    "keywords": [
+      "edit department",
+      "how to edit department",
+      "how to edit department in departments",
+      "edit department in departments",
+      "update department",
+      "how to update department",
+      "how to update department in departments",
+      "update department in departments"
+    ],
+    "answer": "Human Resource -> Departments -> Edit icon -> then popup form opens -> update form -> save department button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Departments",
+      "Click on Edit icon, a popup form will open",
+      "fill in the department name",
+      "click on save department button"
+    ]
+  },
+  {
+    "intent": "departments_delete",
+    "keywords": [
+      "delete department",
+      "how to delete department",
+      "how to delete department in departments",
+      "delete department in departments"
+    ],
+    "answer": "Human Resource -> Departments -> Delete icon -> then confirm delete",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Departments",
+      "Click on Delete icon",
+      "then confirm delete"
+    ]
+  },
+  {
+    "intent": "designations_add",
+    "keywords": [
+      "add new designation",
+      "add designation",
+      "how to add designation",
+      "how to add new designation in designations",
+      "add new designation in designations",
+      "add designation in designations",
+      "how to add designation in designations"
+    ],
+    "answer": "Human Resource -> Designations -> Add New Designation button -> then popup form opens -> fill designation name -> then save designation button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Designations",
+      "Click on Add New Designation button, a popup form will open",
+      "fill in the designation name",
+      "click on save designation button"
+    ]
+  },
+  {
+    "intent": "designations_edit",
+    "keywords": [
+      "edit designation",
+      "how to edit designation",
+      "how to edit designation in designations",
+      "edit designation in designations",
+      "update designation",
+      "how to update designation",
+      "how to update designation in designations",
+      "update designation in designations"
+    ],
+    "answer": "Human Resource -> Designations -> Edit icon -> fill designation name -> then save designation button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Designations",
+      "Click on Edit icon, a popup form will open",
+      "fill in the designation name",
+      "click on save designation button"
+    ]
+  },
+  {
+    "intent": "designations_delete",
+    "keywords": [
+      "delete designation",
+      "how to delete designation",
+      "how to delete designation in designations",
+      "delete designation in designations"
+    ],
+    "answer": "Human Resource -> Designations -> Delete icon -> designation delete button",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Designations",
+      "Click on Delete icon",
+      "then delete the designation"
+    ]
+  },
+  {
+    "intent": "staff_id_card",
+    "keywords": [
+      "view staff id card",
+      "print staff id card",
+      "how to view staff id card",
+      "how to print staff id card",
+      "how to generate staff id card",
+      "generate staff id card",
+      "view staff id card details",
+      "how to view staff id card details",
+      "how to print staff id card details",
+      "how to generate staff id card details"
+    ],
+    "answer": "Human Resource -> Staff id card -> select role, department, designation -> search button -> select template -> generate id card",
+    "steps": [
+      "Open Human Resource Module",
+      "Click on Staff id card",
+      "select filter criteria: select role from dropdown, then select department, and then select designation",
+      "then click on search button",
+      "then staff name, id, and all details will be shown according to this, above that select template from select template",
+      "then click on generate id card",
+      "staff id card will be downloaded"
+    ]
+  },
+  {
+    "intent": "create_certificate_templates",
+    "keywords": [
+      "create certificate",
+      "generate certificate",
+      "how to create certificate",
+      "how to generate certificate",
+      "student certificate",
+      "how to create student certificate",
+      "how to generate student certificate"
+    ],
+    "answer": "Certificate -> Create Certificate -> select role, department, designation -> search button -> select template -> generate certificate",
+    "steps": [
+      "Open certificate templates",
+      "Click on create new certificate template",
+      "Or you can create a new certificate template from here"
+    ]
+  },
+  {
+    "intent": "generate_certificate",
+    "keywords": [
+      "generate certificate",
+      "generate certificate",
+      "how to generate certificate",
+      "how to generate certificate",
+      "student certificate",
+      "how to generate student certificate",
+      "how to generate student id card",
+      "generate student certificate",
+      "generate id card",
+      "generate id card"
+    ],
+    "answer": "Certificate -> generate document -> select class, section, student, templates, generate mode -> generate print preview",
+    "steps": [
+      "Open Certificate module",
+      "Click on generate document",
+      "Select filter criteria: class, section, student, templates, generate mode",
+      "Then click on generate print preview",
+      "Then certificate will be generated"
+    ]
+  },
+  {
+    "intent": "manage_hostel",
+    "keywords": [
+      "manage hostel",
+      "hostel management",
+      "hostel details",
+      "how to add hostel",
+      "add new hostel",
+      "how to manage hostel",
+      "hostel room details",
+      "how to add hostel room details",
+      "how to manage hostel room details",
+      "create hostel",
+      "create hostel"
+    ],
+    "answer": "hostel -> manage hostel -> Add new hostel -> fill hostel details -> create hostel",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Hostel",
+      "Click on Add new hostel",
+      "Fill hostel details",
+      "Click on create hostel"
+    ]
+  },
+  {
+    "intent": "manage_hostel_edit",
+    "keywords": [
+      "edit hostel",
+      "hostel edit",
+      "hostel details edit",
+      "how to update hostel",
+      "update new hostel",
+      "how to edit hostel",
+      "hostel room details edit",
+      "how to update hostel room details",
+      "how to update hostel room details",
+      "edit hostel"
+    ],
+    "answer": "hostel -> manage hostel -> Edit hostel -> fill hostel details -> update hostel",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Hostel",
+      "Click on Edit icon, a popup form will open",
+      "Update hostel details",
+      "Click on update hostel"
+    ]
+  },
+  {
+    "intent": "manage_hostel_delete",
+    "keywords": [
+      "delete hostel",
+      "hostel delete",
+      "hostel details delete",
+      "how to delete hostel",
+      "delete new hostel",
+      "how to edit hostel",
+      "hostel room details delete",
+      "how to delete hostel room details",
+      "how to update hostel room details",
+      "delete hostel"
+    ],
+    "answer": "hostel -> manage hostel -> Delete hostel -> confirm deletion",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Hostel",
+      "Click on Delete icon, a popup form will open",
+      "Delete hostel details",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "room_types_add",
+    "keywords": [
+      "add room type",
+      "room type add",
+      "how to add room types",
+      "add new room type",
+      "how to create room type",
+      "add room type details",
+      "how to add room type details"
+    ],
+    "answer": "hostel -> room types -> Add new room type -> fill room type details -> create room type",
+    "steps": [
+      "Open Hostel module",
+      "Click on Room Types",
+      "Click on Add new room type",
+      "Fill room type details",
+      "Click on create room type"
+    ]
+  },
+  {
+    "intent": "room_types_edit",
+    "keywords": [
+      "edit room type",
+      "room type edit",
+      "how to edit room types",
+      "edit new room type",
+      "how to update room type",
+      "edit room type details",
+      "how to update room type details"
+    ],
+    "answer": "hostel -> room types -> Edit room type -> fill room type details -> update room type",
+    "steps": [
+      "Open Hostel module",
+      "Click on Room Types",
+      "Click on Edit icon, a popup form will open",
+      "Update room type details",
+      "Click on update room type"
+    ]
+  },
+  {
+    "intent": "room_types_delete",
+    "keywords": [
+      "delete room type",
+      "room type delete",
+      "how to delete room types",
+      "delete new room type",
+      "how to delete room type",
+      "delete room type details",
+      "how to delete room type details"
+    ],
+    "answer": "hostel -> room types -> Delete room type -> confirm deletion",
+    "steps": [
+      "Open Hostel module",
+      "Click on Room Types",
+      "Click on Delete icon, a popup form will open",
+      "Delete room type details",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "manage_rooms",
+    "keywords": [
+      "add rooms",
+      "how to add rooms",
+      "add new room",
+      "how to add new room",
+      "how do I add a room",
+      "how to create a new room",
+      "manage rooms add room",
+      "how to add room in manage rooms"
+    ],
+    "answer": "hostel -> manage rooms -> add new room -> fill room details -> create room",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Rooms",
+      "Click on Add new room",
+      "Fill room details",
+      "Click on create room"
+    ]
+  },
+  {
+    "intent": "manage_rooms_edit",
+    "keywords": [
+      "edit rooms",
+      "how to edit rooms",
+      "edit new room",
+      "how to edit new room",
+      "how do I edit a room",
+      "how to update a new room",
+      "manage rooms edit room",
+      "how to edit room in manage rooms"
+    ],
+    "answer": "hostel -> manage rooms -> edit room -> fill room details -> update room",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Rooms",
+      "Click on Edit icon, a popup form will open",
+      "Update room details",
+      "Click on update room"
+    ]
+  },
+  {
+    "intent": "manage_rooms_delete",
+    "keywords": [
+      "delete rooms",
+      "how to delete rooms",
+      "delete new room",
+      "how to delete new room",
+      "how do I delete a room",
+      "how to update a new room",
+      "manage rooms delete room",
+      "how to delete room in manage rooms"
+    ],
+    "answer": "hostel -> manage rooms -> delete room -> confirm deletion",
+    "steps": [
+      "Open Hostel module",
+      "Click on Manage Rooms",
+      "Click on Delete icon, a popup form will open",
+      "Delete room details",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "student_room_allocate",
+    "keywords": [
+      "allocate rooms",
+      "how to allocate rooms",
+      "allocate new room",
+      "how to allocate new room",
+      "how do I allocate a room",
+      "how to update a new room",
+      "manage rooms allocate room",
+      "how to allocate room in manage rooms",
+      "student room allocate",
+      "student room allocation",
+      "how to allocate student room",
+      "how to do student room allocation"
+    ],
+    "answer": "hostel -> student allocation -> allocate student -> confirm allocation",
+    "steps": [
+      "Open Hostel module",
+      "Click on student allocation",
+      "Click on Allocate student button",
+      "Select student",
+      "Click on confirm allocation"
+    ]
+  },
+  {
+    "intent": "student_room_allocate_delete",
+    "keywords": [
+      "delete allocated rooms",
+      "how to delete allocated rooms",
+      "delete new allocated room",
+      "how to delete new allocated room",
+      "how do I delete allocated room",
+      "how to update new allocated room",
+      "manage rooms delete allocated room",
+      "how to delete allocated room in manage rooms",
+      "student room allocate",
+      "student room allocation",
+      "how to allocate student room",
+      "how to do student room allocation"
+    ],
+    "answer": "hostel -> student allocation -> delete allocated student -> confirm deletion",
+    "steps": [
+      "Open Hostel module",
+      "Click on student allocation",
+      "Click on Delete allocated student button",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams",
+    "keywords": [
+      "add new exam",
+      "add offline exam",
+      "how to add offline exam",
+      "add new offline exam",
+      "how to create offline exam",
+      "manage offline exams add exam",
+      "how to add exam in manage offline exams"
+    ],
+    "answer": "Offline examination -> manage offline exams -> add exam -> fill exam details -> create exam",
+    "steps": [
+      "Open Offline examination module",
+      "Click on manage offline exams",
+      "Click on Add exam button",
+      "Fill exam details",
+      "Click on create exam"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams_edit",
+    "keywords": [
+      "edit offline exams",
+      "how to edit offline exam",
+      "edit new offline exam",
+      "how to edit new offline exam",
+      "how do I edit offline exam",
+      "how to update new offline exam",
+      "manage offline exams edit exam",
+      "how to edit exam in manage offline exams"
+    ],
+    "answer": "Offline examination -> manage offline exams -> edit exam -> fill exam details -> update exam",
+    "steps": [
+      "Open Offline examination module",
+      "Click on manage offline exams",
+      "Click on Edit exam button",
+      "Fill exam details",
+      "Click on update exam"
+    ]
+  },
+  {
+    "intent": "manage_offline_exams_delete",
+    "keywords": [
+      "delete offline exams",
+      "how to delete offline exam",
+      "delete new offline exam",
+      "how to delete new offline exam",
+      "how do I delete offline exam",
+      "how to update new offline exam",
+      "manage offline exams delete exam",
+      "how to delete exam in manage offline exams"
+    ],
+    "answer": "Offline examination -> manage offline exams -> delete exam -> confirm deletion",
+    "steps": [
+      "Open Offline examination module",
+      "Click on manage offline exams",
+      "Click on Delete exam button",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "exams_types",
+    "keywords": [
+      "add exam type",
+      "add exam type",
+      "how to add exam type",
+      "add new exam type",
+      "how to create exam type",
+      "manage exam types add exam type",
+      "how to add exam type in manage exam types"
+    ],
+    "answer": "Offline examination -> exam types -> add exam type -> fill exam type details -> create exam type",
+    "steps": [
+      "Open Offline examination module",
+      "Click on exam types",
+      "Click on Add exam type button",
+      "Fill exam type details",
+      "Click on create exam type"
+    ]
+  },
+  {
+    "intent": "exams_types_edit",
+    "keywords": [
+      "edit exam type",
+      "how to edit exam type",
+      "edit new exam type",
+      "how to edit new exam type",
+      "how do I edit exam type",
+      "how to update new exam type",
+      "manage exam types edit exam type",
+      "how to edit exam type in manage exam types"
+    ],
+    "answer": "Offline examination -> exam types -> edit exam type -> fill exam type details -> update exam type",
+    "steps": [
+      "Open Offline examination module",
+      "Click on exam types",
+      "Click on Edit exam type button",
+      "Fill exam type details",
+      "Click on update exam type"
+    ]
+  },
+  {
+    "intent": "exams_types_delete",
+    "keywords": [
+      "delete exam type",
+      "how to delete exam type",
+      "delete new exam type",
+      "how to delete new exam type",
+      "how do I delete exam type",
+      "how to update new exam type",
+      "manage exam types delete exam type",
+      "how to delete exam type in manage exam types"
+    ],
+    "answer": "Offline examination -> exam types -> delete exam type -> confirm deletion",
+    "steps": [
+      "Open Offline examination module",
+      "Click on exam types",
+      "Click on Delete exam type button",
+      "Click on confirm deletion"
+    ]
+  },
+  {
+    "intent": "schedule_exams",
+    "keywords": [
+      "schedule exams",
+      "how to schedule exams",
+      "schedule new exams",
+      "how to schedule new exams",
+      "how do I schedule exams",
+      "how to update new exams",
+      "manage exams schedule exams",
+      "how to schedule exams in manage exams"
+    ],
+    "answer": "Offline examination -> schedule & mark setup -> select exam and class -> create schedule",
+    "steps": [
+      "Open Offline examination module",
+      "Click on schedule & mark setup",
+      "Click on select exam and class",
+      "Click on create schedule"
+    ]
+  },
+  {
+    "intent": "enter_marks",
+    "keywords": [
+      "enter marks",
+      "how to enter marks",
+      "enter new marks",
+      "how to enter new marks",
+      "how do I enter marks",
+      "how to update new marks",
+      "manage marks enter marks",
+      "how to enter marks in manage marks",
+      "enter marks for offline exam",
+      "how to enter marks for offline exam",
+      "how to enter marks for offline exam",
+      "enter student marks",
+      "how to enter student marks",
+      "how to enter student marks"
+    ],
+    "answer": "Offline examination -> enter marks -> select exam, class, section and subject -> enter load student button",
+    "steps": [
+      "Open Offline examination module",
+      "Click on enter marks",
+      "Click on select exam, class, section and subject",
+      "Click on enter load student button",
+      "Then enter marks for students and save marks"
+    ]
+  },
+  {
+    "intent": "admit_card",
+    "keywords": [
+      "admit card",
+      "how to generate admit card",
+      "generate new admit card",
+      "how to generate new admit card",
+      "how do I generate admit card",
+      "how to update new admit card",
+      "manage admit cards admit card",
+      "how to do admit card in manage admit cards"
+    ],
+    "answer": "Offline examination -> admit card -> select exam and class -> select student and generate admit card",
+    "steps": [
+      "Open Offline examination module",
+      "Click on generate admit card",
+      "Select exam, class and section",
+      "Click on select student or all student",
+      "Click on generate admit card"
+    ]
+  },
+  {
+    "intent": "marksheet",
+    "keywords": [
+      "marksheet",
+      "how to generate marksheet",
+      "generate new marksheet",
+      "how to generate new marksheet",
+      "how do I generate marksheet",
+      "how to update new marksheet",
+      "manage marksheet marksheet",
+      "how to do marksheet in manage marksheet"
+    ],
+    "answer": "Offline examination -> marksheet -> select exam and class -> select student and generate marksheet",
+    "steps": [
+      "Open Offline examination module",
+      "Click on generate marksheet",
+      "Select report card type, class and section",
+      "Click on search button",
+      "Click on generate report card"
+    ]
+  },
+  {
+    "intent": "online_exam",
+    "keywords": [
+      "add online exam",
+      "how to add online exam",
+      "add new online exam",
+      "how to add new online exam",
+      "how to create online exam",
+      "manage online exams add online exam",
+      "how to add online exam in manage online exams"
+    ],
+    "answer": "Online examination -> manage online exams -> create new exam -> fill details -> create exam",
+    "steps": [
+      "Open Online examination module",
+      "Click on manage online exams",
+      "Click on create new exam",
+      "Fill exam details",
+      "Click on create exam"
+    ]
+  },
+  {
+    "intent": "question_bank",
+    "keywords": [
+      "add question",
+      "how to add question",
+      "add new question",
+      "how to add new question",
+      "how to create question",
+      "manage questions add question",
+      "how to add question in manage questions"
+    ],
+    "answer": "Online examination -> question bank -> create new question -> fill details -> create question",
+    "steps": [
+      "Open Online examination module",
+      "Click on question bank",
+      "Click on create new question",
+      "Fill question details",
+      "Click on create question"
+    ]
   }
 ]
